@@ -1,0 +1,51 @@
+.col-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+	&.disable-cols-gap {
+		div[class*="col-desk"] {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	&.disable-rows-gap {
+		div[class*="col-desk"] {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+}
+
+$views: mob, tab, desk;
+
+@for $i from 1 through 12 {
+	@each $view in $views {
+		.col-#{$view}-#{$i} {
+			position: relative;
+			min-height: 1px;
+			padding: 10px;
+			box-sizing: border-box;
+			width: 100%;
+		}
+	}
+	
+	.col-mob-#{$i} {
+		max-width: 100%/$i;
+		flex: 0 0 100%/$i;
+	}
+
+	@media (min-width: 768px) {
+		.col-tab-#{$i} {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+
+	@media (min-width: 1025px) {
+		.col-desk-#{$i} {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+}

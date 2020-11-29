@@ -1,0 +1,16 @@
+<wpml-config>
+    <admin-texts>
+        <key name="dtwcbe_condition_product_all"/>
+        <key name="dtwcbe_product_in"/>
+        <key name="dtwcbe_cat_in"/>
+        <key name="dtwcbe_shop_custom_page_id"/>
+        <key name="dtwcbe_condition_archive_product_is_tax"/>
+        <key name="dtwcbe_condition_archive_product_in_tag"/>
+        <key name="dtwcbe_cart_page_id"/>
+        <key name="dtwcbe_cartempty_page_id"/>
+        <key name="dtwcbe_checkout_page_id"/>
+        <key name="dtwcbe_thankyou_page_id"/>
+        <key name="dtwcbe_myaccount_page_id"/>
+        <key name="dtwcbe_myaccount_login_page_id"/>
+    </admin-texts>
+</wpml-config>

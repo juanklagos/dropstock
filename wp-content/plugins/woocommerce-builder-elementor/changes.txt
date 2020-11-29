@@ -1,0 +1,95 @@
+Ver 1.1.6.1 - 20 August 20
+  - Fixed: Only add class 'woocommerce woocommerce-page' to dtwcbe_woo_library template editor
+
+Ver 1.1.6 - 10 August 20
+  - Added widget WooCommerce Notices
+  - Improvements and bug fixes
+
+Ver 1.1.5.7.2 - 19 Jul 20
+  - Added style for Coupon field, Quantity value style in cart table
+  - Fixed: style in cart totals
+  - Fixed: style in cart Empty page
+  - Fixed: Display Condition on option Shop Page
+
+Ver 1.1.5.7.1 - 19 May 20
+  - Fixed: Missing Place Order on Germanized for WooCommerce
+
+Ver 1.1.5.6 - 08 May 20
+  - Fixed: The issue on Display Condition of the Shop page
+
+Ver 1.1.5.5 - 18 April 20
+  - Improved Cart builder - Cart Empty builder when editing
+  - Improved Checkout builder when editing
+  - Compatible with WooCommerce Points and Rewards
+  - Compatible with WooThumbs – Awesome Product Imagery by Iconic
+  - Compatible with WooCommerce Product Configurator by Iconic
+  - Compatible with WooCommerce Simple Auction plugin
+  - Compatible with WooCommerce Frontend Manager - WC Lovers
+  - Compatible with WooCommerce Multivendor Marketplace - WC Lovers
+  - Added the widget WooCommerce Custom Hook
+  - Added the widgets for TheGem theme:
+  	+ TheGem Product Description
+  	+ TheGem Product Navigation
+  	+ TheGem Product Content
+  - Improved Product Gallery Slider Vertical style
+  
+Ver 1.1.5.2 - 15 April 20
+  - Remove duplicate Checkout Payment on Check Review Order widget with some themes
+
+Ver 1.1.5.1 - 11 April 20
+  - Minor bug fixes
+
+Ver 1.1.5 - 10 February 20
+  - Added Import Demo
+  - Fixed Style not work on Cart table Update button, Cart Total change font
+  - Compatible with German Market
+  
+Ver 1.1.4.4 - 08 January 20
+  - Added Custom Cart Empty page
+
+Ver 1.1.4.3 - 31 December 19
+  - Added Product Gallery Slider for product images
+  - Minor bug fixes
+  
+Ver 1.1.4.2 - 17 December 19
+  - Fixed $ is not a function in admin.php
+
+Ver 1.1.4.1 - 10 December 19
+  - Fixed translate issue
+  - Added Checkout form login
+
+Ver 1.1.4 - 08 July 19
+  - Fixed Condition product
+  - Added Archive products widget style customization
+  - Added Related products widget style customization
+  - Added Upsells products widget style customization
+  - Added Cross-sells products widget style customization
+
+Ver 1.1.3 - 02 June 19
+  - Minor bug fixes
+
+Ver 1.1.2 - 19 April 19
+  - Added My Account Login page builder
+  - Improvements and bug fixes
+
+Ver 1.1.1
+  - Improved preview mode in Cart builder
+  - Improved preview mode in Checkout builder
+  - Compatible with WooCommerce Memberships by WooCommerce
+  - Compatible with WooCommerce Subscriptions by WooCommerce
+  - Compatible with WooCommerce Germanized
+  - Compatible with YITH WooCommerce Compare, YITH WooCommerce Wishlist
+
+Ver 1.1.0
+  - Added Customize Thank You page
+		- Thank You Order
+		- Order Details
+		- Order Customer Details
+  - Added Style Options for the widgets of the Cart Page
+  - Added Style Options for the widgets of the Checkout Page
+  - Added Style Options for the widgets of the My Account Page
+  - Added Style Options for the widget Product Content
+  - Fixed Condition on Product Archive
+
+Ver 1.0.0
+  - Initial Release
