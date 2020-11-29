@@ -1,0 +1,15 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+$check_cart_custom_icon_width = $titan->getOption( 'cart_custom_icon_width' );
+?>
+<svg style="width:<?php echo $check_cart_custom_icon_width ?>px;max-height:<?php echo $check_cart_custom_icon_width ?>px;float:left;" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+  <g>
+    <g>
+      <path d="M29,8V5c0-2.761-2.239-5-5-5h-4c-2.761,0-5,2.239-5,5v3H6v36h32V8H29z M17,5c0-1.657,1.343-3,3-3h4c1.657,0,3,1.343,3,3v3    H17V5z M36,42H8V10h7v4h2v-4h10v4h2v-4h7V42z"/>
+    </g>
+  </g>
+</svg>
+
+
+<?php  ?>

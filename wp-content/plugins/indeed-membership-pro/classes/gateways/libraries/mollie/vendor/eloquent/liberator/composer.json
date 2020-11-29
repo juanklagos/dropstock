@@ -1,0 +1,26 @@
+{
+    "name": "eloquent/liberator",
+    "description": "A proxy for circumventing PHP access modifier restrictions.",
+    "keywords": ["access", "modifier", "object", "proxy", "private", "protected", "reflection"],
+    "homepage": "https://github.com/eloquent/liberator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erin Millard",
+            "email": "ezzatron@gmail.com",
+            "homepage": "http://ezzatron.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "eloquent/pops": "~4.1.0"
+    },
+    "require-dev": {
+        "icecave/archer": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eloquent\\Liberator\\": "src"
+        }
+    }
+}

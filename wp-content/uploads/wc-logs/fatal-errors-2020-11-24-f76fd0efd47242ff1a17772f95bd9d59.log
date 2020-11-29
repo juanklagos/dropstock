@@ -1,0 +1,90 @@
+2020-11-24T00:01:45+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:04:29+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:04:33+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:21:22+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:21:42+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:22:17+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:32:54+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+
+2020-11-24T00:33:06+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:367
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\class-et-builder-element.php(3036): db_shop_thumbnail_code->render(Array, '', 'et_pb_db_shop_t...', '', '', '', '')
+#1 C:\laragon\www\drop\wp-includes\shortcodes.php(343): ET_Builder_Element->_render(Array, '', 'et_pb_db_shop_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\laragon\www\drop\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(et_pb_...', 'do_shortcode_ta...', '[et_pb_db_shop_...')
+#4 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\main-structure-elements.php(3062): do_shortcode('[et_pb_db_shop_...')
+#5 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\class-et-builder-element.php(3036): ET_Builder_Column->render(Array, '[et_pb_db_shop_...', 'et_pb_column', '', '', '', '')
+#6 C:\lara en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 367
+
+2020-11-24T00:39:58+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php:204
+Stack trace:
+#0 C:\laragon\www\drop\wp-content\themes\Divi\includes\builder\functions.php(1619): db_shop_thumbnail_code::get_thumbnail(Array, Array, Array)
+#1 C:\laragon\www\drop\wp-includes\class-wp-hook.php(287): et_pb_process_computed_property('')
+#2 C:\laragon\www\drop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\drop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\drop\wp-admin\admin-ajax.php(176): do_action('wp_ajax_et_pb_p...')
+#5 {main}
+  thrown en C:\laragon\www\drop\wp-content\plugins\divi-bodycommerce\includes\modules\et_pb_db_shop_thumbnail\et_pb_db_shop_thumbnail.php en la línea 204
+

@@ -1,0 +1,14 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wtfdivi">
+			<key name="fixes">
+				<key name="067-edit-footer-html">
+					<key name="footerhtml"/>
+				</key>
+				<key name="116-add-text-to-top-header">
+					<key name="topheadertext"/>
+				</key>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,33 @@
+#db_title_and_tagline { 
+    display: inline-grid !important; 
+    grid-template-rows: 1fr auto 1fr;
+}
+#db_title_and_tagline #logo-text {
+    grid-row: 2;
+}
+#db_title_and_tagline #logo-tagline {
+    grid-row: 3;
+}
+#db_title_and_tagline  {
+	vertical-align: middle;
+	max-height: 100%; /* Keeps logo in the right place */
+	overflow: hidden !important;
+}
+#db_title_and_tagline  #logo-text {
+	display: block;
+}
+#db_title_and_tagline  #logo-tagline {
+	display: block;
+	margin-left: 0;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	line-height: 1em;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.et-fixed-header #db_title_and_tagline  .logo-tagline {
+	font-size:0;
+	opacity: 0;
+	line-height: 0;
+}

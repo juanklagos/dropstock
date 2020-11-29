@@ -1,0 +1,25 @@
+{
+    "name": "eloquent/pops",
+    "description": "PHP object proxy system.",
+    "keywords": ["object", "proxy", "method", "property"],
+    "homepage": "https://github.com/eloquent/pops",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erin Millard",
+            "email": "ezzatron@gmail.com",
+            "homepage": "http://ezzatron.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "icecave/archer": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eloquent\\Pops\\": "src"
+        }
+    }
+}

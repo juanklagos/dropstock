@@ -1,0 +1,1365 @@
+﻿/* CHANGELOG */*
+* VERSION 4.7.2.9.2
+* FIX - PHP warning in header email
+* FIX - cart icon click not working on some cases
+* FIX - JS migrate error for admin JS
+*
+* VERSION 4.7.2.9.1
+* FIX - error message 
+*
+* VERSION 4.7.2.9 -10/09/2020
+* EMHANCEMENT - Changed PHP to reduce load of settings
+* MOD - modified link whole layout to work with ajax add to cart
+* MOD - Price module, changes title tag from h2 to be p. Better for SEO
+* MOD - Price module, added settings to customise the title text
+* FIX - custom cart disabled causing conflict
+* FIX - Conflict with new Divi Sticky menu with the mini cart
+*
+* VERSION 4.7.2.8 - 08/09/2020
+* FIX - Fixed CSS bug from Divi adding arrows to the variations swatches
+* FIX - Bloom adding code to carousel which caused white space next to the product
+* FIX - Ajax add to cart, adding 2 products on variations
+*
+* VERSION 4.7.2.7 - 07/09/2020
+* COMPATIBILITY - Checked with WP 5.5 and seems all ok
+* COMPATIBILITY - Ajax Add to cart for product subscription with Woocommerce All Product Subscription plugin
+* NEW ADDITION - add setting for ajax variation threshold
+* MOD - AP Navigation: Added option to customise the active link
+* MOD - PP Tabs: Added option to change tab content background color. Modified the labels to make more sense for the colors.
+* MOD - Changes the close icon structure in the mini cart from "a" to "span" for SEO
+* MOD - Added option to stack or put buttons side by side in the mini cart - "Mini Cart Button Display"
+* MOD - Changed the code for "link whole layout" from <a> link to JS - this way there wont be any issues with the HTML structure when you add a link inside the layout (like the ATC module)
+* MOD - Added option to disable our Custom Product Tabs in BodyCommerce > Settings
+* FIX - eamil footer logo alignment was moving the whole body and not aligning the logo
+* FIX - PHP warnings with order bump
+* FIX - CSS for columns with the default layout
+* FIX - Overlay for default was not being hidden if selected
+* FIX - Flip Image Size for LL Thumbnail
+* FIX - Ratings module not working on custom loop
+* FIX - Mini Cart mobile open issue
+* FIX - Security fix for Thank you page layout issue
+* FIX - Fixed result count & orderby and pagination for custom loop query on ProductLoop module.
+* FIX - Fixed issue related with "Hide Non purchasable products?" on ProductLoop module
+* FIX - Bodycommerce updater php issue
+*
+* VERSION 4.7.2.6 - 03/08/2020
+* FIX - Price module CSS was not working 
+*
+* VERSION 4.7.2.4 - 03/08/2020
+* FIX - Ajax add to cart stopped working on variable products
+*
+* VERSION 4.7.2.3 - 01/08/2020
+* MOD - PL Price: Added option to customise the sale price
+* MOD - G Product Carousel: Added options to sort order products correctly
+* MOD - Hide the variation swatches that are not avaiable ( not to be confused with out of stock )
+* MOD - Product Loop: Added option to show or hide the hidden products
+* MOD - CPP Cross-Sell: Remove product showing if in the cart
+* MOD - Checkout fields, added option to change the checkbox true or false text, so instead of being "1" or "0", it will have text.
+* FIX - Fixed shopify checkout shipping not updating price
+* FIX - Fixed scroll to top when clicking on "continue shopping" on the pop up mini cart
+* FIX - Adaptive height for horizontal slider
+* FIX - Fixed Quick Edit issue when product meta data is enabled
+* FIX - Fixed shortcode not working in product custom tab.
+* FIX - Only show order details on thank you page to specific customer
+* FIX - Remove text in mini cart was hidden
+* FIX - mini cart remove icon color and font size was not changing
+* FIX - Fixed showing mini cart icon when specified not to in theme customiser
+*
+* VERSION 4.7.2.2 - 24/06/2020
+* MOD - Multistep checkout, scroll to top when going to the next step
+* FIX - Fixed mini cart remove text not showing
+* FIX - Fixed CSS not working correctly with mini cart (being behind header and also color when in top header)
+* FIX - shopify checkout not going back a step when required field is not filled out
+*
+* VERSION 4.7.2.1 - 18/06/2020
+* FIX - CSS conflicting with mega menu in account area
+* FIX - multi-step, text showing
+*
+* VERSION 4.7.2 - 16/06/2020
+* COMPATIBILTY - Added code to make grid compatible with Internet Explorer
+* MOD - ARP Category Loop: Added option to enable the product count next to the category title.
+* MOD - Customised the mini cart appearance to look better
+* MOD - Product Loop: Exclude from catalog added to cat and tags in custom loop
+* MOD - Lost Password Form: Added styling for the paragraph text
+* MOD - ARP Product Loop: Added option to show new products and you can define the time
+* MOD - PL Price: Added option to specify the decimal when showing the lowest variable price
+* MOD - Added option to change the text of the "Confirm Password" field on the register form when enabling this in BodyCommerce Mods
+* MOD - Added option to customise the bottom text line height in the slide in mini cart
+* MOD - Update cart when removing from mini cart on the cart page
+* MOD - Added option to change the basket button in the mini cart to be continue shopping
+* MOD - Changed the custom login url to be registration in BodyCommerce Mods
+* MOD - Login Form Module: Added option to redirect to a custom URL
+* MOD - AP View Order: Added option to customise the highlighted text
+* MOD - PP Sharing: Added option to customise the sharing icons colours within the module
+* MOD - Added multistep setting code to make compatible with new plugin
+* FIX - Fixed CSS code for badges going to bottom on mobile (some cases)
+* FIX - Fixed fullwidth button when quantity is there in the ATC module
+* FIX - Shopify checkout processing required fields on the shipping tab
+* FIX - Shopify checkout sometimes not processing payment
+* FIX - Shopify checkout sometimes missing shipping section on mobile
+* FIX - Rating CSS not working too well in the carousel module
+* FIX - Fixed short description error with custom word count
+*
+* VERSION 4.7.1.1 - 01/06/2020
+* MOD - Payment checkout module: modified CSS to not be overwritten.
+* FIX - Issue with cart svg not taking colour and position
+*
+* VERSION 4.7.1 - 28/05/2020
+* MOD - Modified code to work well on mobile - it will show or hide the mini cart if you want/set in our settings
+* MOD - Added option to not close the mini cart after auto show
+* MOD - PP Product Image: Added option to align the image
+* MOD - Added description to tell you to leave the 'Select Checkout Page Template' blank if you want to use one of our premade styles
+* MOD - Removed 'Display Divi cart at end of a menu' setting as you can enable this in the menu module itself
+* MOD - ARP Category Loop: description appearance settings
+* FIX - Cross-sell and Up-sell grid
+* FIX - Carousel related products were not working correctly
+* FIX - Expandable gallery arrows and close button.
+* FIX - Close mini cart was not working on some mobile devices
+* FIX - updated woo templates
+* FIX - Category Loop grid columns was not working
+* FIX - sale badge percentage text not the same on category as product page in terms of position.
+* FIX - Fixed pop up button margins
+* FIX - G Product Carousel: Left arrow custom icon not working
+* FIX - G Product Carousel: if no cross-sell on cart page, it was throwing an error.
+*
+* VERSION 4.7 - 19/05/2020
+COMPATIBILTY - RTL
+****** IMPORTANT ***** = We have changed the CSS for the product loops to be CSS grid. This is much better as is works on RTL and also less CSS/quicker. Please check your site after and make sure it is ok. if all goes wrong, please revert back to the original CSS in BodyCommerce > Settings > Main CSS Method
+* MOD - ARP Product Loop: Added option to create a 'no results' layout for the custom layout.
+* MOD - AP Welcome Message: Added option to show the default WooCommerce dashboard message
+* MOD - modified the shopify url when you click on a different step
+* MOD - PL Short Description: Added option to choose the ending and link to the product page if you shorten the excert
+* FIX - Fixed issue with shopify style checkout and the german market plugin causing styling issues
+* FIX - Short description notice error
+* MOD - Tabs submit rating button alignment
+* MOD - Cart icon after text - translatable
+* MOD - Added a close 'x' icon on drop down mini cart on mobile
+* MOD - Slide in mini cart, changed the product price to show the product total price
+* MOD - Updated WooCommerce template files
+* FIX - Change price on variation change will only affect the price in the same section. Make sure you have your related products in a different section for example
+* FIX - Fixed issue with shopify style checkout and the german market plugin causing styling issues
+* FIX - Short description notice error
+* FIX - Short description notice error
+* FIX - Translation of sharing icons before text
+* FIX - buttons on multi-step position for RTL
+* FIX - Add to cart module - align center and right not working ono simple products
+* FIX - Disable Mini Cart on Mobile was not allowing the customer to link straight to the cart page on mobile
+* FIX - Fixed translation of the orderby menu when you change the names using our settings
+* FIX - Fixed issue showing currency of the TAX/VAT in slide in mini cart
+*
+* VERSION 4.6.9.1 - 05/05/2020
+* FIX - Fixed issue with ajax pop up not opening
+* FIX - JS error when working out the same height grid cards
+* FIX - Cat title ontop of image was not working on the shop. Also added ability to show the title always and not just on hover
+* FIX - PHP notice error
+*
+* VERSION 4.6.9 - 04/05/2020
+* ENHANCEMENT - Added and changed code to make the plugin run quicker
+* COMPATIBILTY - Ajax Add to Cart: Compatibility for bundle and subscription products
+* MOD - ARP Product Loop: Added setting "Disable products when category has child categories?" Only works on categories. If you are on a category page and the category has sub-categories, you can disable the products to be shown with this setting.
+* MOD - ARP Category Loop: Added ability to show the category title on top of the image when hovering
+* MOD - Archive Loop: Changed the way the loop displays the products to work with the speciality section
+* MOD - PL Short Description: Added option to limit the word count
+* MOD - Added et_pb_button to the popup mini cart
+* MOD - Setting added to remove the translation so it is all English and not French for example
+* MOD - Thumbnail overflow issue with the sale badge being hidden
+* MOD - Added ability to disable ajax add to cart on specific products
+* FIX - Login module rememberme text css changing all
+* FIX - Fixed js for hover delay in mini cart
+* FIX - Checkout CSS for the inputs was not working on some sites
+* FIX - Vertical gallery slider images cropped
+* FIX - Changed the code for the same height grid cards so that they have the margins of the section in the custom loop layout
+*
+* VERSION 4.6.8.2 - 22/04/2020
+* MOD - Added ability to show featued products in a particular category on the shop page using the custom loop
+* FIX - DE VB icon showing on stock status
+* FIX - Summary notice error
+* FIX - Continue shopping button was not closing the pop up
+*
+* VERSION 4.6.8.1 - 20/04/2020
+* MOD - Changed the up-sell and cross-sell modules so the item count setting shows
+* MOD - G Product Carousel: Ability to show featured or popular products from a particular category
+* MOD - G Product Carousel: Added ability to hide non purchasable products
+* FIX - Builder not loading on new pages
+* FIX - Continue shopping button text was not showing
+* FIX - Vertical Gallery style messed up
+*
+* VERSION 4.6.8 - 17/04/2020
+* NEW ADDITION - Ability to display the variations better on cart/checkout and mini cart. It will put them on separate lines and add the label before each value
+* MOD - PP Gallery: Added option to make the images adaptive to the height
+* MOD - Added email verification to multi-step checkout
+* MOD - Added email and phone (min 4 numbers) to the shopify style checkout
+* MOD - Changed priority of adding woocommerce class to the body
+* MOD - WPML string for percentage before/after text
+* MOD - G Product Carousel: Hide products that are not visible in the catalog
+* MOD - PP Related Products: Hide products that are not visible in the catalog
+* MOD - G Product Carousel: Added ability to show the cross-sell products in carousel
+* MOD - G Product Carousel: Added CSS to hide the carousel until it has loaded
+* MOD - Added button margin and padding to all the modules with buttons
+* MOD - Order Bump, Added option to select variation if is a variation product
+* MOD - Added fix for auto show slide in mini-cart, adds body CSS
+* MOD - Added CSS to hide overflow on the flip image
+* MOD - ARP Category Loop: category title font size was not changing on some sites
+* MOD - ARP Category Loop: added ability to hide or show empty categories
+* FIX - Fixed issue with Divi slide in menu and our mini cart not showing right
+* FIX - Issues with stuff not linking in with the product title in the mini cart
+* FIX - G Product Carousel: prev arrow was not lined up right
+* FIX - custom checkout fields - translation
+* FIX - PP Summary: modified the button alignment code
+*
+* VERSION 4.6.7 - 08/04/2020
+* COMPATIBILTY - WPML string compatibility for our setting text boxes
+* MOD - If you set the close time of the autoshow mini cart to "0" - it will keep it open and you can close it manually
+* MOD - PP Tabs: Added option to customise the custom tabs font sizes/color etc
+* MOD - PP Tabs: Added options to customise the reviews text
+* MOD - Speed enhancements for the carousel module
+* MOD - Added option to define the delay time it takes when hovering over the cart icon to close the mini cart
+* MOD - AP Welcome Message: Added option to add text after the username
+* MOD - AP Navigation: Added option to make buttons fullwidth and also align the text of them
+* MOD - PL Add To Cart: Made padding of the module !important to overwrite Divi
+* MOD - changed header title in the slide in mini-cart to be from h2 to p
+* FIX - variation single strikethrough was not adding on first load
+* FIX - Top header being under the main header so mini cart was going behind
+* FIX - slide in mini cart background colour being overwritten buy custom header
+* FIX - Quantity custom styling not working on non woo pages
+* FIX - back to shop button on the category loop is now working on all categories too
+* FIX - when removing an item from the slide in mini cart, conflict with Divi Mobile menu not showing
+*
+* VERSION 4.6.6 - 27/03/2020
+* FIX - added to cart text not translatable but now is
+* FIX - Cart icon color not working on some sites
+*
+* VERSION 4.6.5 - 26/03/2020
+* MOD - ARP Category Loop: Added option to add a link to the shop page in the list. You can specify the text and the image as well as the position of this link.
+* MOD - PP Related Products, PP Up-Sell, CPP Cross-Sell - added ability to remove out of stock products
+* MOD - make mini cart text and shopify checkout text WPML translatable
+* FIX - Fixed issue where cart count was not showing when mini cart was disabled
+* FIX - Better compatibility with variation striketrhough on cat pages
+*
+* VERSION 4.6.4.1 - 09/03/2020
+* MOD - Added code to hide hideen products from the custom loop
+* FIX - button text not changing on the shopify checkout
+*
+* VERSION 4.6.4 - 09/03/2020
+* NEW ADDITION - Shopify Checkout Style
+* NEW ADDITION - Now you can add your own custom cart icon - upload it (preferably SVG)
+* MOD - Added whatsapp sharing icon
+* MOD - Product Carousel: Added option to display the carousel of the current category in the setting "Carousel Type"
+* MOD - Login module, if logged in and not redirects, it will show nothing so you can have it go back to the same page when logging in (ie to use on category page)
+* MOD - PP Gallery: Ability to add image name below the custom sliders
+* FIX - SKU being duplicated when going back to "select option"
+* FIX - Tabs active background color was not changing
+* FIX - Redirect to cart when normal and click mini cart on mobile
+* FIX - Vertical gallery custom icons on mobile were not going left/right
+* FIX - Gutter width not affecting the upsell module
+* FIX - Fixed out of stock badges not showing
+* FIX - Variation swatches strikethrough changing all on category page
+* FIX - PP Gallery: remove duplicate dots
+*
+* VERSION 4.6.3.1 - 10/03/20
+* FIX - default loop not showing categories
+*
+* VERSION 4.6.3 - 09/03/20
+* NEW ADDITION - Checkout Order Bump. Add a product discounted on the checkout page for the customer to quickly add to cart
+* NEW ADDITION - Two new modules for the order bump - price & Add
+* MOD - updated french translation
+* FIX - Fixed wp-admin bar being behind header in some instances
+* FIX - Slider not showing short description when specified
+* FIX - zoom image was showing default image on first slider gallery
+* FIX - tabs not showing on the product page builder
+* FIX - Made our mini cart CSS color and font size !important to stop being overwritten
+* FIX - Fixed issue where if you have click to activate mini cart and disable mini cart on mobile, there was no way of clicking through to the cart page
+* FIX - Breadcrumbs module on the page causing the archive default loop to go to three columns on pages other than the first
+* FIX - PL Price center align text
+*
+* VERSION 4.6.2 - 02/03/20
+* MOD - G Product Carousel: added ability to create related and up-sell carousels
+* MOD - Changed CSS for slide in mini cart being behind menu
+* FIX - Fixed box shadow not showing for the mini cart
+* FIX - Fixed js error showing in VB for the menu module
+* FIX - loading undefined image with zoom icon
+* FIX - Fixed styling not working on the register module
+* FIX - Slide in mini cart on mobile - fixed the items not showing when lots added to cart
+*
+* VERSION 4.6.1 - 26/02/20
+* FIX - error
+*
+* VERSION 4.6 - 26/02/20
+* COMPATIBILTY - Made the menu module cart icon compatiable with out custom cart and mini cart
+* MOD -  [NB: Please check the spacing for your custom loops after the update and add margin to the loop layout if you need] Removed margin at the bottom of each products in the product loop so you can do this with the loop layout instead
+* MOD - Changed variation strike through JS so it works better calculating out of stock products
+* MOD - CP Cart Products: Added option to add border,radius, shadow for the table and option to customise the header text in the table
+* MOD - CP Cart Totals: Added option to customise the heading text and the amount text
+* MOD - PP Tabs: Fixed the header text not changing
+* MOD - Changed the setting in bodyCmmerce mods. Add quantity on archive page, this will add a quantity input next to the simple products in the loop. If you want it on variations too you will need to use our custom loop and enable this in the add to cart module
+* MOD - Moved bottom of slide in mini cart above top to avoid issues with clicking the button
+* FIX - Added to cart button was not going to cart but to shop. Fixed
+* FIX - Slide-in minicart on mobile - when too many products, sometimes cant click button to go through to cart page, fixed.
+* FIX - Slide-in hide burger icon for Divi Mobile fix
+* FIX - Fixed opacity of mini cart when using the cart shortcode the the menu
+* FIX - Fixed z-index of the BC pages and the custom header
+* FIX - z-index of 11 was being added to all sections when using mini cart. Made it only to the section where the cart is now
+*
+* VERSION 4.5.9 - 19/02/20
+* MOD - ARP Category Title/Header: If you add this module on the search page it will say "Search results for" and then the search term.
+* MOD - PL Add To Cart: Added options to align the add to cart button/quantity and variations
+* MOD - ARP Product Loop: Added option to show "out of stock" products only
+* MOD - Added CSS to make slide in mini cart go behind Divi Mobile burger icon
+* FIX - Sale badge not working on vertical slider
+* FIX - Fixed css issue where product title is not being affected in slidein mini cart
+* FIX - Search product not working in the menu module search
+*
+* VERSION 4.5.8 - 31/01/20
+* FIX - some sites throwing an error when accessing Divi accent colour
+*
+* VERSION 4.5.7 - 31/01/20
+* NEW ADDITOIN - Ability to customise the order of the tabs on a global scale. Go to BodyCommerce Mods > Single Page Mods > Product Tabs Order
+* MOD/NEW ADDITION - Added compatibility for variation strikethrough for multiple variation swatches
+* MOD - email template, added option to remove border and shadow around body
+* MOD - email template, added option to link footer logo
+* MOD - Show percentage sale badge on product pages with our custom sliders
+* MOD - Show percentage for variations on product page
+* MOD - Added ability to choose where you want the slider arrows on the vertical or horizontal sliders
+* MOD - Optimised gallery JS
+* MOD - Increased the number of tabs from 4 -> 20
+* MOD - Added check for Woo and will give notice if woo is not active
+* FIX - Fixed account not responsive if using left pane navigation
+*
+* VERSION 4.5.6 - 27/01/20
+* NEW ADDITION - ability to add layouts above and below your account section endpoints
+* MOD - Changed the HTML and CSS to make the account left pane better and less CSS
+* MOD - Added option to make the left and right panes the same height - new setting for this called "If left pane, make the nav and content same height?"
+* MOD - Hide modules on frontend too when hiding BC modules
+* FIX - Pagination causing categories with less products messing up
+* FIX - Variation strike through was not working on images
+*
+* VERSION 4.5.5 - 21/01/20
+* MOD - Made the hide atc button on the single page too
+* MOD - Added option to enable equal height grid cards on mobile
+* FIX - Fixed issue with custom pagination and the Divi shop module
+* FIX - products that were not purchasable are not showing, we have added the option to hide this rather than assume
+*
+* VERSION 4.5.4 - 14/01/20
+* NEW ADDITION - Added option in BodyCommerce Mods > Remove View Basket Link. This will remove the text "View Basket" when using ajax add to cart
+* NEW ADDITION - Added option in BodyCommerce Mods > Disable Icon Spinning. This will remove the animation of spinning the icon when adding to cart
+* MOD - Added ability to hide the modules in the Builder. BodyCommerce > Settings
+* MOD - ARP Category Loop: Added option to display all categories on the product cat page
+* MOD - Added option to order by price in the Product Loop module
+* MOD - Added z-index automatically when adding the cart shortcode in a module.
+* MOD - Added percentage discount for variation products
+* MOD - Changes CSS for add to cart pop up so that the buttons are shown when lots of products are added to cart
+* MOD - PL Attributes: Added option to link the attribute to the attribute archive page
+* MOD - ARP Product Loop: Hidden products that are not purchasable from the custom loop layout
+* MOD - Changed JS for label inbetween for variation swatch to work on images too
+* FIX - notice error when not getting an image array for email templates
+* FIX - Was not removing backorder text when changing stock (stock status module)
+*
+* VERSION 4.5.3 - 20/12/19
+* FIX - Cart clicking through to basket when do not want to.
+*
+* VERSION 4.5.2 - 19/12/19
+* FIX - Cart menu not clicking through
+*
+* VERSION 4.5.1 - 19/12/19
+* MOD - Modified code to update fragments on load, this way when we make changes it it shown.
+* FIX - Mini cart click, not closing
+* FIX - Fixed issue with sortable multi-step checkout not showing
+* FIX - Cart icon going right when using shortcode
+* FIX - VB for payment methods. It shows a message about it not being compatiable. We are working on full compatibility
+*
+* VERSION 4.5 - 17/12/19
+* NEW ADDITION - Payment Methods layout in account
+              - Added two new modules for this ("Payment Methods" and "Add Payment Method" modules)
+              - Added area to define these layouts. BodyCommerce > Account Pages
+* MOD - Changed HTML for cart icon so that it can be used in the menu
+* CSS fixes for mini cart
+* MOD - CHP Order Review: Added abiliy to remove borders
+* MOD - Show Price for Logged In Users only
+              - added string to be translated
+              - added ability to add custom HTML instead of our text
+* FIX - custom gallery slider zoom on featured image was not working - was showing the default placeholder
+* FIX - Grouped product sales badge error
+* FIX - php errors (depreciated PHP)
+*
+* VERSION 4.4.7 - 06/12/19
+* MOD - Added ability to add the cart shortcode in the menu for when using the theme builder - [bodycommerce_cart_icon]
+* MOD - CP Cart Products: added ability to customise the coupon field
+* MOD - PL Stock Status: added option to change the stock status based on the variation selection
+* MOD - CPP Cross-Sell: Added ability to make the products the same height and also align the last module in the card.
+* MOD - PP Up-Sell: Added ability to make the products the same height and also align the last module in the card.
+* MOD - PP Related Products: Added ability to make the products the same height and also align the last module in the card.
+* FIX - ARP Category Title/Header: description was going missing when using pagination.
+* FIX - Variation out of stock line through
+* FIX - PL Stock Status: backorder text was not changing
+* FIX - Added css to fix 3 column layout columns on tablet going to 2 and not 3
+* FIX - Issues with HTML rendering when using a shop manager role
+*
+* VERSION 4.4.6 - 27/11/19
+* FIX - Deactivate License was not working
+*
+* VERSION 4.4.5 - 26/11/19
+* FIX - Conflict with Divi Nitro
+*
+* VERSION 4.4.4 - 25/11/19
+* FIX - Some sites threw error with new pagination
+*
+* VERSION 4.4.3 - 25/11/19
+* NEW ADDITION - Custom Pagination - change the look of your WooCommerce paginations
+* NEW ADDITION - Added ability to add custom CSS and JS to your website. This is helpful when you import and export our settings from one site to another.
+* MOD - Changed same height product loop grid js, it will change height on resize now too so will be better when changing browser height
+* MOD - Mini cart hover improvement. Added 1 second delay without hiding the mini cart so when you scroll down it doesn't get removed
+* MOD - Added mini cart overlay colour (which covers the whole page and not the header) - setting is called "Mini Cart/Pop Up Overlay Colour"
+* MOD - Slide in mini cart, added ability to customise the font size and colour of TOTAL
+* MOD - CP Cart Products: Added ability to align quantity to the right
+* MOD - Button hover background fix on login and password reset modules.
+* MOD - Added ability to choose which menu you want the cart icon to be at the end of
+* FIX - Tabs CSS not working
+* FIX - product loop module - custom loop pagination not working
+*
+* VERSION 4.4.2 - 15/11/19
+* COMPATIBILTY - Added the ability to add the original cart icon to the end of the primary menu (BodyCommerce > Settings). This will allow the ability for the custom cart icon and mini cart to work. Do not enable the cart icon on the menu module but instead enable it in our settings
+* MOD - Removed via @bodycommerce from twitter share
+* MOD - PL Add To Cart: added stock appearance settings
+* FIX - Product loop module - default overlay color and icon.
+*
+* VERSION 4.4.1 - 04/11/19
+* MOD - Added print and share via email to the sharing icons
+* MOD - Minified some scripts added to the site
+* MOD - .PL Stock Status: Added ability to remove the number shown so it will only say "in stock" instead of "3 in stock" for example
+* FIX - price font size not changing currency too.
+* FIX - Stock staying "left in stock when using custom in stock text"
+* FIX - Update check on multisite not checking properly
+* FIX - Product title not showing on custom loop some times
+* FIX - Fixed default product loop column number and alignment on mobile/tablet portrait
+* FIX - Fixed quantity when added manually you can decrease and increase - if you do this and try increase/decrease, it will default to the max number
+*
+* VERSION 4.4 - 24/10/19
+* COMPATIBILTY - Divi 4.0.3 has fixed an issue with CSS not showing
+* MOD - Added ability to show total or subtotal heading in the mini cart/pop up. Added setting for this in Mini Cart/Pop Up settings tab
+* FIX - Fixed error where ajax was not working on some product pages in admin
+* FIX - Slider CSS overwriting builder CSS
+* FIX - Fixed issue where variation swatches was not selecting default swatch
+* FIX - CSS 4 columns on tablet not working correctly
+* FIX - Fixed issue with veritcal gallery not showing correctly
+* FIX - Fixed French translation in BodyCommerce Mods
+*
+* VERSION 4.3.9 -21/10/19
+* FIX - Compatibility with Divi 4 on archive and product pages
+* FIX - js error in our import/export settings (in admin)
+*
+* VERSION 4.3.8 - 18/10/19
+* FIX - Fixed CSS issue on site
+* MOD - Added options to enable/disable Divi 4 fix - in BodyCommerce > Settings
+*
+* VERSION 4.3.7 - 18/10/19
+* FIX - Quick (temp) fix for Divi 4 and the custom loop not showing styles as well as styles not working on new products created
+* FIX - Fixed issue with cart on desktop with centered logo
+*
+* VERSION 4.3.6 15/10/19
+* NEW ADDITION - Ability to import and export the settings for BodyCommerce to use on other sites (only BodyCommerce and BodyCommerc Mods pages)
+* NEW ADDITION - Added ability to make an "out of stock" custom badge
+* MOD - Moved license form in the tab "license" in BodyCommerce section
+* MOD - Added ability to disable Variation Swatches
+* MOD - Added ability to disable various code that is added to your site so if you dont need it, you can disable it - such as the checkout CSS.
+* MOD - changed it so that you can have the sale badge and one of the others at the same time. So you can have sale and new for example.
+* MOD - ARP Product Loop: Made sort order work for popular, featured and on sale products
+* MOD - Variation swatches, added ability to choose a border colour for a non active variation.
+* MOD - Slider module: added ability to customise the price and the arrows and dots
+* MOD - Removed edit address for now as was not working
+* FIX - Fixed custom icon on hover for checkout button (not the module)
+* FIX - Changed the name "Enable Placeholders" on the custom field as it should be disable and not enable :D
+* FIX - Removed all the French "e" from the setting tabs as this was causing issues with accessign the setting pages
+* FIX - Variation swatch strike through not affecting select anymore
+* FIX - Centered header, cart icon was being hidden by Divi
+* FIX - Fixed box shadow not working on some modules because of WooCommerce CSS override
+* FIX - Fixed welcome message title WPML compatibility
+*
+* VERSION 4.3.5 - 24/09/19
+* NEW ADDITION - Added ability to create a custom template for editing the billing and shipping address in the account area
+* NEW ADDITION - Added new module (edit addresses), AP Edit Addresses
+* NEW ADDITION - Added Product description shortcode
+* MOD - PP Tabs: added ability to show only one tab content, this way you can show tab 1, tab 2, tab 3 etc separately. We use the names "tab 1, tab2" because if you are using custom tabs, there is not a consistent name across all the products.
+* MOD - Changed french translation for modules so that they are the same structure and all grouped together.
+* MOD - Changed search for sale products to show variable products too
+* MOD - ARP Category Loop: Added category class name to the category loop so you can use it to do some extra CSS.
+* MOD - PP Gallery: Added ability to choose the image and thumbnail size - default or full-size
+* MOD - Related, Cross and up sell modules. Added ability to change overlay background colour and icon colour
+* MOD - Changed CSS for our modules to show fullwidth instead of 50% so you can read the modules better
+* FIX - Fixed glitch where if you hide title in upsell/related it would affect the custom loop titles too.
+* FIX - added CSS to fix the stars showing as "SSSS" when using custom fonts for ratings
+*
+* VERSION 4.3.4 - 08/09/19
+* NEW ADDITION/MOD - Added compatibility for the product sliders to have lightbox and variation image change
+* MOD - PL Meta - Product Page / Loop Layout: Added ability to remove the links to the categories or tags
+* MOD - ARP Product Loop: Added ability to show ON SALE products in the custom loop
+* MOD - ARP Product Loop: Added ability to choose ON SALE, FEATURED or POPULAR based on the category specified above. So it will only show popular for a specific category if you want.
+* MOD - ARP Product Loop: Added ability to align the last module in the custom loop at the bottom of the card layouts (works well with equal heights)
+* MOD - Added </br> below the header logo if you choose a header logo
+* MOD - Added a max-height of 73vh on the slide in mini cart items so it will scroll when too many added to cart
+* FIX - French translation, archive and email template tabs were not working
+* FIX - Fixed issue with checkout payment button styling on mobile
+*
+* VERSION 4.3.3- 23/08/19
+* FIX - Modified add to cart module to not throw error in some cases
+* FIX - Price module showing single price if variable
+*
+* VERSION 4.3.2- 22/08/19
+* FIX - removed some text that should not be there
+*
+* VERSION 4.3.1 - 22/08/19
+* NEW ADDITION - Added two new shortcodes to display the rating stars from the single and the category pages
+* NEW ADDITION - Added the ability to choose the "primary" category for the custom layouts to look for. This is helpful when you have a product in multiple categories but want to only show a specific template.
+* MOD - PL Add To Cart: Added ability to change the text of the variable product on the single page too
+* MOD - PL Rating: Added option to center the stars#
+* MOD - PL Price: added option to show the lowest price be default. Can be used in conjunction with the change price so that when they select an option it will change the price
+* MOD - Added french translation for our setting pages
+* MOD - Changed the jQuery so that when you have mini cart drop down and click, on mobile it will go direct to cart.
+* MOD - Added CSS to make the update cart icon the same height when disabled
+* MOD - Changed some of the code for the mini cart, removes some errors that may happen in admin
+* MOD - AP Navigation : Hide Payment Methods added
+* FIX - Fixed error where variable was not defined
+* FIX - Default gallery style causing issues with Extra, sorted
+* FIX/MOD - ARP Product Loop: List view will always be ONE column from now
+* FIX - Ratings placeholder had space above and below - sorted now
+* FIX - php warnings from cross sell module when there are multiple products in the cart with cross sells.
+* FIX - Add to cart module was causing the custom layout for attributes to go out of wack
+* FIX - Various code errors
+* FIX - Fixed height of variation swatches when used on category pages
+*
+* VERSION 4.3 - 12/08/19
+* NEW ADDITION - New Slide in Mini Cart. Enable this in the Mini Cart settings tab
+* NEW ADDITION - New module to display checkout coupon - CHP Coupon - Checkout Page
+* MOD - Added a new tab in the settings for Cart Icon, seperated cart icon and mini cart and moved cart icon settings here
+* MOD - Renamed Tab to be Mini Cart/Pop Up
+* MOD - If you have the notices module on the custom checkout page - it will now display the error messages
+* MOD - ARP Product Loop: Added options to customise the category title text and count appearance
+* MOD - Change variation selector to look for parent so that it works on the category pages
+* MOD - Better license manage for multi-sites. You now enter a key per each site so updates are seamless
+* MOD - One Page Checkout Style - added the ability to put payment on the right as well as the default style.
+* MOD - Added the ability in the Product Loop module to specify the post type you want (custom loop). For example if you want to show posts you can choose this but you will need to create a loop layout that will show the featured image and text for example.
+* FIX - Fixed issue with Product Image, the overlay was not working
+* FIX - Fixed issue with same height cards messing up height on mobile.
+* FIX - Empty Cart not showing styles when removing from the cart. Fixed now
+* FIX - CSS fix to sort out save account details messing up layout in account
+* FIX - mobile columns number were not working on some occasions - related module - it will work now
+* FIX - setting no icon on the checkout payment module was causing it to not show - fixed now.
+* FIX - AP Navigation: hide endpoints was not working on inline button style - now it is.
+* FIX - Fixed issue where payment method triangle would turn to a square with our payment module.
+*
+* VERSION 4.2.3 - 23/07/19
+* FIX - Fixed issue where description name was being shown on the pro content module.
+*
+* VERSION 4.2.2 - 22/07/19
+* NEW ADDITION - Added the ability to use a shortcode to show attributes so you can use them in other modules like the accordian module. [bc_display_attributes] will show all attributes but you can choose a specific one with [bc_display_attributes attributes="color"] or multiple with [bc_display_attributes attributes="color|size"]
+* MOD - Added ability to disable the basket button on the minicart so it only has the "checkout" button. It will also make this checkout button fullwidth
+* MOD - CP Cart Products: Added option to hide the update cart button
+* MOD - PL Add To Cart: Added option to hide the stock amount (new tab for stock)
+* MOD - Performance enhancement
+* FIX - error messages
+* FIX - Change price text based on the variation was affecting all the variations on the category page when showing the variations. We have fixed this
+* REMOVAL - Removed the setting to enable the Divi Builder on the product page as this is in Divi now.
+*
+* VERSION 4.2.1 - 15/07/19
+* MOD - Changed the code that outputs the loop layout as it was targeting the section and causing issues when adding a custom ID to the parent section
+* FIX - Fixed calculation for percentage badge
+* FIX - bug in some of the code displaying text when should not be
+*
+* VERSION 4.2 - 08/07/19
+* NEW ADDITION - Added ability to specify the template for the attribute archive page
+* MOD - Added ability to change colour and size of the close button of the pop up cart
+* MOD - Added ability to change the colour of the background overlay of the pop up cart
+* MOD - PL Add To Cart: Added ability to make the button fullwidth
+* MOD - AP Addresses: Added ability to hide the shipping address
+* MOD - ARP Product Loop: Added default class names to the custom layouts so that it works with some product filters
+* MOD - Added ability to change the remove text for the mini cart and pop up
+* MOD - CHP Shipping: Added ability to customise the text, label and input text appearance
+* MOD - CHP Biling: Added ability to customise the text, label and input text appearance
+* MOD - CHP Order Review: Added ability to customise the text appearance
+* MOD - CHP Payment: Added ability to customise the text and button appearance
+* MOD - CHP Payment: Added ability to customise the background colours of the payment box
+* MOD - Custom checkout checkbox (BodyCommerce Mods): Added ability to add code so you can change it to link to your terms rather than just text
+* MOD - Custom checkout field - checkbox: Added ability to add code so you can change it to link to your terms rather than just text
+* MOD - PL Add To Cart: Added ability to change appearance of the reset variations option
+* MOD - PL Add To Cart: Added ability to hide reset variations option
+* FIX - Fixed the accordion checkout layout not changing the text shown to new customers
+* FIX - Fixed the multi step checkout, when going previous it would remove the borders of the inputs
+* FIX - Fixed issue with hide variation price not working
+* FIX - Fixed ability to change price text size etc for the changed variation price (price module)
+* FIX - Fixed bade issues when you select the default badge for new and free badges
+* FIX - Fixed not changing text of FREE badge
+* FIX - Mini Cart sub total font size not changing for the pop up cart
+* FIX - custom button text colour not changing on lost password, password reset and atc modules
+*
+*
+* VERSION 4.1.1 -21/06/19
+* FIX - Custom tabs (new button) not working
+*
+*
+* VERSION 4.1 -18/06/19
+* MOD - Added ability to hide the mini cart on mobile
+* MOD - Added ability to remove different product page per category (in BodyCommerce settings page)
+* MOD - AP Navigation: Added option to remove endpoint links
+* MOD - Added strike through for the colour and image variation as well as the label.
+* MOD - Altered CSS for custom loop column layouts with custom gutter width so that it is not overwritten by the gutter width css added to the body
+* MOD - TP Customer Details: Added ability to customise the title text
+* MOD - TP Order Details: Added ability to customise the title text
+* FIX - Added CSS to make account left/right layout to go fullwidth on mobile
+* FIX - Fixed VB code so that the custom button icon would not cause it to not load for that module.
+* FIX - Fixed custom loop layout for cross sell
+* FIX - Avatar causing issues with html when left/right layout
+*
+* VERSION 4.0.1 - 10/06/2019
+* FIX - Fixed issue where atc was not showing on product page
+*
+* VERSION 4.0 - 10/06/2019
+* NEW ADDITION - Full Visual Builder compatibility apart from modules that use the custom loop layout
+* MOD - Preparation for language translation
+* MOD - Changed names of modules slightly for better usage. Removed "BC" and started each module with the first letters of where you can use them, this way they are all alphabetically sorted and easy to see where you can use them
+* MOD - Changed the icons for each module in the Admin
+* MOD - Removed the background colours of the modules and added a colour behind the icons so you can see which are in the same "family"
+* MOD - Added ability to change the quantity border width and the height of the box
+* MOD - Added ability to hide the stock, back orders and remaining in the stock status module.
+* MOD - Fixed issue where hide out of stock on the atc module was not working.
+* FIX - Fixed css for additional information on the tabs module, on some sites the html was different
+* FIX - Fixed issue with custom loop showing the out of stock products when in the settings it is selected to remove
+* FIX - Fixed isseu with summary module custom button icon was not working
+* FIX - Aded code to make checkout fullwidth
+* FIX - glitch with loop list not showing
+* FIX - Fixed Product title padding not working on some sites - changed the CSS selector
+*
+* VERSION 3.4.1
+* FIX - code bug
+*
+* VERSION 3.4
+* NEW ADDITION - Custom checkout page - added backend use only for the following modules:
+                              - BC After Customer Details
+                              - BC Before Customer Details
+                              - BC Before Order Review
+                              - BC Billing
+                              - BC Order Review
+                              - BC Payment
+                              - BC Shipping
+* NEW ADDITION - Ability to customise the notification boxes globally. You can change the font colour & size, background colour, padding and button style
+* MOD - Added ability to redirect user to a specific page when logging in - so to redirect somewhere else other than the account page. You can find this in BodyCommerce Mods > User/Customer mods
+* MOD - Added the ability to link the whole loop layout to the product page on where ever you can use it.. This way you can have the whole "card" link through. You need to have no links for this to happen so do not link the thumbnail or product title to the product page in the custom loop layout.
+* MOD - Added compatibility with the plugin WooCommerce PDF Invoices & Packing Slips - it will now show the custom field on the invoice (for example if you are using VAT custom field)
+* MOD - BC Cart Totals: added ability to hide the shipping section
+* MOD - Added ability to change the colour of the remove icon in the mini cart
+* MOD - BC product Image - you can choose what image to show in the gallery. Now you can choose if you want to default to the featured or not to show if there is not the number uploaded.
+* MOD - BC Category Loop - added ability to change the column structure to be 5 or 6.
+* MOD - Swatches - made it so the default variations are highlighted on load
+* MOD - Changed "BC Order Details - Account Pages" module to "BC View Order - Account Pages"
+* MOD - Made the archive module compatiable with the VB for the default layout
+* MOD - Added ability to only show featured or popular products in the BC product loop module
+* FIX - Remove custom quantity on the mini cart
+* FIX - Custom checkout field not showing on order
+* FIX - glitch where custom checkout field would not change to checkbox on billing section.
+* FIX - Fixed issue where the custom quantity "-" did not trigger the update
+* FIX - Fixed issue where multiple carousels would comflict on image numbers and css
+* FIX - Fixed issue with custom quantity changing number on some sites
+*
+* VERSION 3.3.1.1
+* FIX - Fixed breadcrumbs not having the last delimiter
+* FIX - Cross sell not showing on product page (last update stopped this)
+* FIX - Fixed issue where the meta module would not hide the category/tags if asked to
+*
+* VERSION 3.3.1
+* MOD/NEW ADDITION - Added ability to change the active colour swatch from fade to a border.
+* MOD - Added ability to choose featured or popular products in the carousel
+* MOD - added ability to hide the page title from the breadcrumbs. For example if you want to hide the product page name. Find the setting in BodyCommere Mods > General Mods
+* MOD - Made the category title compatible with shortcodes in the description
+* MOD - made it so that if you have just the one page checkout - the empty cart will work. Go to WooCommerce > Settings > Advanced and set the cart and checkout page to be the same (basket/cart as the checkout page)
+* MOD - Added ability to choose the image you want shown on the BC Product Image module - this will output the image only - no gallery.
+* MOD - changed order of password reset templates
+* MOD - cross sell module - hidden columns/show number when not using custom layout
+* MOD - Added loads of gallery slider options to customise the custom gallery sliders
+* FIX/MOD - changed CSS so that it removes the select CSS on the orderby select box too.
+* FIX - removed custom select icon from the ratings
+* FIX - Fixed CSS for Product Loop module for when you had a left side bar menu - Divi CSS would cause the column structure to get messed up on smaller screens
+* FIX - Fixed issue with custom quantity not making the update cart amounts clickable.
+* FIX - custom cart icon number not showing on one situation
+* FIX - hide tab titles were removing all h2 in description
+* FIX - Meta module, fixed the title and value on seperate lines
+* FIX - fixed glitch where cross sell would not show when the product is not added to the cart.
+* FIX - Fixed issue where expandable gallery is not working
+*
+* VERSION 3.3
+* NEW ADDITION - Added ability to customise the password reset steps.
+* NEW ADDITION - Three new modules for the password reset steps: BC Password Reset Form, BC Password Confirmation Message & BC Lost Password Form
+* NEW ADDITION - Added ability for you to create the layout for the "view order details" in the account area.
+* NEW ADDITION - Added a new module called "BC Order Details" - this displays the order details when you click on "view order" in the account.
+* NEW ADDITION - Compatibility with German Market Plugin - if you are facing issues, you can enable template override - in BodyCommerce > Settings
+* NEW ADDITION - Added new module "BC Cross-Sell" - this is used to display the cross sells
+* NEW ADDITION - New module called "BC Payment Details" for the thank you page
+* MOD - Added ability to change the padding below the cart for mini cart - setting is called "Mini Cart Padding Bottom"
+* MOD - Added ther ability to add content before and after the order table in your emails
+* MOD - changed name of upsell module to be "BC Up-Sell"
+* MOD - Added option to disable Cross Sells on the cart totals module
+* MOD - Added option to specify the image size for the thumbnail module
+* MOD - Added option to remove the title on the upsell module
+* MOD - Added alt text to the images on with the gallery module.
+* MOD - BC Category Title/Header - added ability to remove the title and change its html tag. This way you can remove the title, description and image so you can add three modules and position them where you want :D
+* MOD - changed code as when using just the divi builder - the divi CSS would not render and cause issues with column sizes etc.
+* MOD/FIX - Altered code for gallery module so that you can have multiple on the same page and not get a js error.
+* FIX - Changed code so that the custom fields are shown on the order emails.
+* FIX - Fixed issue where sometimes the cart count would not show for custom cart icon.
+* FIX - Custom quantity - the "+" was not working on cart.
+* FIX - code bugs
+* FIX - custom select - removal of select 2 not working in Firefox and IOS
+* FIX - Fixed issue with ajax remove products from the cart - it not showing the custom empty cart template
+* FIX - Fixed desktop/tablet/mobile columns on the related and upsell modules when choosing a default layout.
+* FIX - Removal of the coupon field on the cart section for one page checkout style.
+* FIX - Added code to make the "reset variations" not affect the custom select dropdown
+* FIX - Removed the replication of the custom checkout field name on the emails
+* FIX - custom quantity was not hiding the default arrow buttons on firefox
+*
+* VERSION 3.2.2.1
+* MOD - Change the name of the action module to be BC Action/Shortcode and added ability to add a shortcode or action.
+* FIX - Renamed the Cart totals module (it was labelled products)
+* FIX - Title module making links when not supposed to
+*
+* VERSION 3.2.2
+* NEW ADDITION - Added option for you to change the "my account" menu name for when the user is not logged in, to something like "login". Find this under BodyCommerce Mods > General Mods > "My Account Menu Text Change".
+* NEW ADDITION - Added a new module called "BC Action Shortcode" - this module will output a custom shortcode you specify on the page
+* MOD - Added ability to choose either Text, Text Area or Checkbox for the custom checkout field type.
+* MOD - Added ability to choose the order order of the custom loop in the Product Loop module.
+* MOD - Made it so that the images used in the templating are able to be deferred.
+* MOD - Added option to add border around gallery main image and thumbnails.
+* MOD - Added option to add box shadow around gallery main image and thumbnails.
+* MOD - BC Product Slider - Added automatic animation.
+* MOD - Rename and move of the settings for the accordion and multi step titles
+* MOD - New and free badges were not showing on the product page - now they will.
+* MOD - Added ability to choose another style for multi step circle checkout numbers on mobile - you can have the text on one line instead of one on top of each other. BodyCommerce > Checkout Page > "Multi-step mobile numbers style"
+* FIX/MOD - Added default "add to cart" button text which plugins such as bundles will default too.
+* FIX/MOD - Change the placeholder text on the login module to be translatable.
+* FIX - Glitch where the word "Category" was not being translated when BC was active
+* FIX - reset variation values was missing when using a custom select style - it is back
+* FIX - Fixed issue where the title would not link to the product page when using tags custom loop
+* FIX - generic colour for mini cart will change the empty text too now.
+* FIX - Removal of one of the coupon fields when using the accordion layout for checkout
+* FIX - changing remove from "x" to "remove" was not working
+*
+* VERSION 3.2.1
+* NEW ADDITION - Added ability to design the thank you page using the builder.
+* NEW ADDITION - Added three new modules:
+                      - BC Customer Details - Thank You
+                      - BC Order Details - Thank You
+                      - BC Order Overview - Thank You
+* NEW ADDITION - Added ability to choose if you want the active colour name to appear after the variation label. You can also specify a word or phrase between these. For example if you choose the blue colour, instead of just saying Colour it will say Colour chosen is Blue if you want :D
+* MOD - Added ability to make the variation options appear on the archive page. You can do this using the add to cart module in a custom loop.
+* MOD - Added ability to change the home link on the breadcrumbs to be the shop page - BodyCommerce Mods > General Mods > Breadcrumbs home link to shop
+* MOD - Preparation for language translation.
+* MOD - Added ability to hide the cart number when it is empty
+* MOD - Added ability to specify the column number on the related module for desktop, tablet and mobile
+* MOD - Added ability to specify the column number on the upsell module for desktop, tablet and mobile
+* MOD - Added ability to show confirm password on the register form. You can find this in BodyCommerce Mods > User/Customer Mods > Enable password confirmation on register form
+* MOD - Added generic text colour for minicart
+* MOD - Changed all the names of the modules so that they are easier to read
+* MOD - Changed the colours of the modules so they are easier to see what you can use on what page.
+                      - Green = Product Page
+                      - Dark Purple = Loop Layout
+                      - Pink = Archive Pages
+                      - Orange = Account Pages
+                      - Blue = Cart Page
+                      - Yellow = Thank You Page
+                      - Cream = Login/Register Page
+* FIX - moved text before for sharing to correct location.
+* FIX - Custom select arrow z-index issue
+* FIX - fatal error when custom checkout mod is enabled.
+* FIX - Attribute module not working
+* FIX - cart icon strange position if using centered menu
+* FIX - Issue where row would get the percentage on account area too - messed up layout on account pages
+* FIX - Fixed custom button on register and login modules
+* FIX - Fixed issue where custom quantity input was out of line on mobile - cart page.
+*
+* VERSION 3.2
+* NEW ADDITION - Input field customiser - custom quantity and custom select style.
+* NEW ADDITION - Added sharing icons that will hook into the sharing module. Settings in BodyCommerce > Sharing Icons tab
+* TEST - Tested with latest release of WooCommerce 3.5.5
+* MOD - Added ability to make the Divi search use our search results template - this will make it search products ONLY. the setting is on the search results tab in BodyCommerce settings.
+* MOD - Changed breadcrumbs name to be loop as well
+* MOD - IMPORTANT - Removed cart before hook so that when using notices module on the cart page it will work. If you do not have notices module on your custom cart page, you need to add this where you want it.
+* MOD - Moved notices CSS from the main element to the notice classes so that if there is nothing there - padding won't be shown.
+* MOD - When grouped or variable product is on sale it will show as "sale" instead of the percentage.
+* MOD - Breadcrumbs module, changed the sizing from the module parent to target the class ".woocommerce-breadcrumb" - this way you can remove the margins added by WooCommerce
+* MOD - temp fix for the quick edit. We have added a setting in the settings tab that allows you to disable the meta fields on the product page and use the quick edit. We are working on a long term fix. This will disable the custom tabs and product page override on the product page if enabled.
+* FIX - Notice error showing for custom loop in Archive Loop Module
+* FIX - drop shadow not working on custom add to cart button
+* FIX - Fixed issue menu mini cart activate was "click" - mobile menu and search icon would disappear.
+* FIX - Fixed DB Loop Thumbnail hover icon not changing.
+* FIX - Meta titles had the class "metatitle" for tag title so was conflicting when trying to remove the titles
+* FIX - Add to cart button text was not changing on the product page. It wont affect the variable product though.
+* FIX - error message when adding two checkout fields to the after order notes
+* FIX - error message with checkout fields in the edit order screen.
+* FIX - Fixed issue with cart product module button custom icon not changing and affecting the button text
+* FIX - Alignment issues with the product navigation module icons
+* FIX - Notices button not working 100%
+* FIX - Fixed issue with sale of products in a grouped product - this would cause a 500 error
+* FIX - Some button custom background colors were not changing on some sites because of !important
+* FIX - using custom layout and the add to cart module on the custom loop - would cause the tags page to mess up
+* FIX - Fixed issue where the fixed menu would not kick in on layout overrides.
+* FIX - Fixed issue where checkout appearance settings would not change for other layouts other than the checkout multi-step.
+* FIX/MOD - Fixed issue where the related and upsells modules would not show the header when using the custom loop layout
+* FIX - multi-step headings were on one line for mobile (didn't look good) when having the login step too.
+* FIX - fixed issue where you used a row as the account navigation - the left nav would not be on the left
+*
+* VERSION 3.1.9.1
+* FIX - Admin error when trying to add the add to cart module
+* FIX - Error messages - undefined notice
+* Fixed notice errors
+*
+* VERSION 3.1.9
+* MOD - DB Pro Related Products: Changed html so it is ul,li same as the archive pages so that they styling is the same when you use a loop layout.
+* MOD - DB Pro Meta: Added ability to put the titles/values on separate lines for each meta item.
+* MOD - DB Pro Meta: Added design for the title and values of each meta item.
+* MOD - DB Pro Meta: Added ability to remove the border above the meta items.
+* MOD - DB Cart Total: Added ability to remove the title above the table.
+* MOD - DB Pro Related Products: Added ability to remove title and loads of CSS customisation such as heading, price, product title etc.
+* MOD - Made it so that Ajax Add to cart script will ONLY load if you enable it.
+* MOD - Added ability to remove headings from the login and register modules.
+* MOD - DB Pro/Loop Add to Cart: Added ability to style the disabled button
+* MOD - Box shadow on all buttons
+* MOD - Better search for new updates
+* FIX - Removed button text change on single product page (variable was not changing to add to cart)
+* FIX - Fixed styling of category header. Separated Title and description so you can style them differently. Fixed issue when you specified to hide image when background image, it was not hiding it.
+* FIX - Fixed error in console in admin
+* FIX - php code that was slowing down sites
+* FIX - Fixed the orderby or results count not showing when using the custom loop on a custom layout in the DB Loop Archive module.
+* FIX - Fixed issue with hidden products showing whe using the custom loop on a custom layout in the DB Loop Archive module.
+* FIX - Add to cart module, custom icon was not working
+* FIX - Remove titles from DB Pro Tabs was not working. It is now
+* FIX/MOD - Removed container around custom template to fix padding at top and other issues.
+* FIX - Login module button was not working
+* FIX - Account remove titles was not working
+* FIX - DB Pro Navigation: Issue with the product images not showing correctly
+*
+* VERSION 3.1.8
+* NEW ADDITION - Added ability to change the name of "products" in admin dashboard
+* MOD - added button alignment for the add to cart module
+* MOD - You can change the ajax pop up buttons now. It will be the same settings as the mini cart buttons.
+* MOD - change loop layout from button to select as better to read
+* MOD - Added ability to change text of the add to cart buttons of each product type. So you can change the text based on each product type. Also for out of stock products
+* MOD - added ability to remove the titles of the category, SKU etc in the meta module
+* MOD - Added ability to change the button alignment in the Add to Cart module.
+* DB Loop Archive - fixed/added sizes for the gutter widths
+* DB Loop Archive - fixed column numbers on mobile and tablet when we specify the number in the module.
+* FIX - DB Cat Loop module, changed text name to be title and it will affect the title now.
+* FIX - Tabs module - removal of one of the tabs would remove the whole thing.
+* FIX - Fixed issue with removal of padding when using a transparent header
+* FIX - Fixed issue with single slider (gallery module) icons would not change.
+* FIX - Changed CSS to make the products in a custom loop stack in one column on mobile - it is 2 currently
+* FIX - Fixed issue with slider not showing short description when defined.
+* FIX - Category header css was not working for the page title.
+*
+* VERSION 3.1.7
+* MOD - Added quick link to selected template in BodyCommerce settings page
+* FIX - unwanted text on the cart page
+* FIX - Cart image size was not working
+* FIX - Short description ul list was loosing formatting due to Divi Builder.
+*
+* VERSION 3.1.6
+* MOD - Added ability to add/remove sort and product count on the custom loop in the archive loop module. Reordered things, moved both this and the pagination to the top under "general settings" as this can affect both the default and custom loops.
+* MOD/FIX - Added compatibility of brands archive page - if using brands, it will use the default category page layout you create.
+* FIX - DB Category Title/Header causing layout to break - fixed layout on shop page
+* FIX - DB Acc Welcome Message - text design was not working
+* FIX - DB Acc Orders - Some warnings were showing - gone now
+* FIX - DB Pro/Loop Add to Cart text size was not chaning on the category pages
+* FIX - DB Notices, fixed button and content backgrounds not changing.
+* FIX - DB Loop Archive background color was not working
+* FIX - Admin js on cart/mini cart page hiding customise button
+*
+* VERSION 3.1.5
+* NEW ADDITION - Added ability to choose the layout for when the cart is empty.
+* MOD - Added ability to ONLY show most popular products on slider.
+* MOD - added the ability to change the text for "Successfully added to cart Text for Pop Up" and "Continue Shopping Button Text for Pop Up"
+* FIX - Price module not updating font size - it will now.
+* FIX - Fixed slider featured ONLY not working.
+*
+* VERSION 3.1.4
+* NEW ADDITION - Added ability to go straight to checkout when adding a product to the cart. You can find this in BodyCommerce Mods > Checkout Mods
+* FIX - Fixed issue with add to cart module not changing styling or text on category page
+* FIX - admin JavaScript that hides the custom cart icon settings
+* FIX - fixed custom loop layout as list was not showing
+*
+* VERSION 3.1.3
+* FIX - Added DB Pro Image module which was lost on the previous two updates
+* FIX - Changed code in visual builder to show images that were linked to our dev site
+*
+* VERSION 3.1.2
+* FIX - Cleaned up code to remove undefined variables.
+* FIX - Variable swatches not saving the options you choose.
+* FIX - Fixed issue with Price module causing backend library builder not working.
+* FIX - Multi Step checkout when not allowing account login at checkout was causing the first step to not validate the fields - this is sorted now
+*
+* VERSION 3.1.1
+* FIX - If you had upsell above add to cart, it would cause the variant product to be a single add to cart.. Sorted.
+* FIX - Issue with sale badge causing variable product being a single
+* FIX - Bugs with some of the modules that was causing issues with header injector plugins adding the code
+*
+* VERSION 3.1
+* NEW ADDITION - Added Woo Tag template - you can specify the layout you want to be shown for the template page (Divi Engine > BodyCommerce)
+* NEW ADDITION - Added Woo Search Results template - you can specify the layout you want to be shown for the search results (Divi Engine > BodyCommerce)
+* MOD - Changed the custom loop module to work with product filters like WOOF - the code has changed for this now so please make sure it is styled fine for you after the update (archive loop)
+* MOD - Loop module - added option to specify how many in a row you want shown on tablet and mobile for custom loop
+* MOD - Added so that if you search for an SKU it will go directly to that specific product page.
+* MOD - Added ability to change the mini cart button text
+* MOD - removed gallery script unless you have the gallery module added
+* MOD - Stock module: added ability to change the stock status text
+* MOD - Price module: added ability to add text before and after the price
+* FIX - Fixed issue of "to show" not working on related and upsell modules with new Divi builder
+* FIX - removed errors in console from frontend and backend
+* FIX - Price text styling on category page was not working
+* FIX - Fixed percentage calculations for savings - rounding strangely
+*
+* VERSION 3.0
+* NEW ADDITION - New module called "DB Product Search" which will search for your products.
+* NEW ADDITION/MOD - DB Loop Archive module, we have added the ability to use the default WooCommerce layout, here you can have the sort order and product filters will work better with this. We will build in Product filter in the future for both this and custom layout.
+* NEW ADDITION - VISUAL BULILDER COMPATIBILITY FOR THE FOLLOWING:
+*
+Compatible
+- DB Loop Thumbnail
+- DB Category Title/Header
+- DB Loop View Product Btn
+- DB Pro Additional Information
+- DB Pro Attributes
+- DB Pro Before
+- DB Pro Breadcrumbs
+- DB Pro Content
+- DB Product Search
+- DB Pro Gallery
+- DB Pro/Loop Add To Cart
+- DB Pro/Loop Price
+- DB Pro/Loop Product Title
+- DB Pro/Loop Short Description
+- DB Pro Meta
+- DB Pro Navigation
+- DB Pro/Loop Product Rating
+- DB Pro Reviews
+- DB Pro Sharing
+- DB Pro/Loop Stock Status
+- DB Pro Product Summary
+- DB Pro Tabs
+*
+Not Compatible Yet
+- DB Acc Addresses
+- DB Acc Avatar
+- DB Acc Downloads
+- DB Acc Edit Account
+- DB Acc Navigation
+- DB Acc Orders
+- DB Acc User Name
+- DB Acc Welcome Message
+- DB Cart Products
+- DB Cart Total
+- DB After Shop (currently there is no way of getting what gets plugged into this action from other plugins.
+- DB Loop Archive
+- DB Notices
+- DB Product Carousel
+- DB Product Slider
+- DB Log Login Form
+- DB Log Register Form
+- DB Category Archive
+- DB Pro Related Products
+- DB Pro Upsell
+*
+* MOD - Changed the way it looks for the template files for WooCommerce account and similar - it will now look for your theme or child theme template files first and then BodyCommerce second.
+* MOD - Better caching of the plugins
+* MOD - Completely rewritten our modules with the latest Divi release. Fixed depreciated code and getting ready to make it compatible with the visual builder. It is not at the moment but will be shortly. PLEASE CHECK YOUR SITE AFTER UDPATE
+* MOD - DB Pro Gallery: we have added automatic animation for the sliders. it is under the custom icon color and style.
+* MOD - DB Pro Gallery: We have added the ability to disable the lightbox on the default gallery style.
+* MOD - DB Pro Meta: Added ability to hide/show categories, tags and SKU's and also make them appear on different lines.
+* MOD - Renamed the module DB Pro Prev/Next to be DB Pro Navigation
+* MOD - DB Pro/Loop Add To Cart: Added new features, these are: Button Text, Show/Hide quantity, hide variation price
+* MOD - DB Pro Product Summary: Added new features, these are: Button Text, Show/Hide quantity, show/hide variation price, start color
+* MOD - DB Pro/Loop Product Rating: Added placeholder stars and choose the color if you do not have any reviews
+* MOD - Changed name of DB Pro Stock Status to be DB Pro/Loop Stock Status as can be used in the loop too.
+* MOD - DB Pro Reviews: Added primary/secondary star colors and ability to hide heading
+* MOD - DB Pro Tabs: Added the following features; Remove additional info, remove tabs style, remove tabs title, set reviews stars color, tab background color, tab active background, tab hover background, tabs header text alignment
+* MOD - DB Pro/Loop Product Title: Added ability to specify what html tag you want for the product title, so on the loop you can have it has h3 or something instead of multiple h1 tags
+* MOD - DB Pro/Loop Price: Added ability to change the price based on the variation selected on the page.
+* MOD - DB Pro/Loop Product Title: Added option to select the HTML tags you want for SEO purposes.
+* MOD - Updated logo and colors in the admin to the new Divi Engine brand. We will be making the CSS better as we go on and have time to make it look better.
+* FIX - Fixed problem with custom icon not working on add to cart module
+* FIX - fixed padding issues and some class mix ups on modules, this fix is a result of re-coding all modules
+* FIX - Fixed php warnings in DB Product Carousel module.
+* FIX - Fixed button styling not working on the checkout page for right layout
+* FIX - Hide empty categories in cat archive
+*
+* VERSION 2.7.6.2
+* FIX - php notice error
+* FIX - Error on checkout page - custom checkout step titles were causing the issue, we have disbaled this and will come back to this.
+*
+* Version 2.7.6.1
+* NEW ADDITION - Ajax add to cart pop up. We have added this feature. You can choose to have a pop up appear when you add a product to the cart using ajax. The pop up will show the contents of the cart and have buttons to continue shopping, go to cart or checkout page.
+* MOD - added ability to change the titles on all the checkout styles
+* FIX - Upsell module using custom loop would mess up the layout on 2 or more column layouts
+* FIX - Custom tabs - divi library layout was not working
+* FIX/MOD - changed it so that when you have pagination set to yes and custom post number in the Loop Archive module - the pagination will show - before it was not showing.
+* FIX - Multi-step checkout coupon section was being added twice
+* FIX - fixed the payment right checkout style not being on two columns
+* FIX - fixed CSS that was not making the account fullwidth
+*
+* Version 2.7.6
+* FIX - Fixed multistep checkout validation.
+* FIX - added woocommerce class to the body tag as the mini cart was not working on some sites without this.
+* UPDATED FILE - updated the email files to be compatiable with WooCommerce 3.5
+* UPDATED FILE - updated code for the mini cart to be compatiable with WooCommerce 3.5 (if you are not seeing it, add a product to the cart and it will update (new users will see it fine))
+* UPDATED FILE - Updated form-edit-account.php so that it is compatiable with WooCommerce 3.5
+* MOD/NEW ADDITION - Added ability to add extra registration fields - these are: first_name, last_name, billing_phone - this is in the register module
+* FIX - changed ajax add to cart so that it adds the related product on the product page if you choose that and not the main product.
+* MOD - Changed sort order of the related module to be random
+* FIX - Custom new customer text on multi step checkout was not working
+* FIX - add checkout_before action on the multistep - it was missing.
+*
+* Version 2.7.5.2
+* MOD - changed title of category title module to be: "DB Category Title/Header"
+* FIX - Related module was not ordering the products randomly - it will now
+*
+* Version 2.7.5.1
+* NEW ADDITION - DB Acc Avatar - This module will output the avatar of the user or you can upload a "default" one if you want.
+* FIX - Loop module - custom loop - if you had categories and number of posts added, the wrong number of posts would show. This is now fixed.
+* FIX - custom register fields not being added to the register page when using the Register module.
+*
+* Version 2.7.5
+*
+* NEW ADDITION - Added a new tab under BodyCommerce Mods called "Shortcodes". Here we have put two shortcodes in there for now but will be adding more as we go.
+* NEW ADDITION - Added the shortcode to display the cart icon to be used with custom headers etc - [bodycommerce_cart_icon]
+* NEW ADDITION - Added the shortcode to display the customers name - [bodycommerce_reviews]
+* NEW ADDITION - Added a module to display the users name - DB Acc User Name
+* MOD - Added new ability to add a "strike through" on a variation button swatch if the option is out of stock. It will also make it so they user cannot click on it.
+* MOD - Changed it so that the mulstep checkout will show all the fields that need to be filled out rather than just the first in the list.
+* FIX - Fixed the validation of the email and country select multi step checkout.
+* FIX - Custom message on multi step checkout was not changing - now it will.
+* FIX - Error message for et_accent_color
+* FIX - Fix error message when $check_other_settings_step_order_title was not defined
+* FIX - Changed the CSS that makes the left/right account section better responsively. At 980px it will make them both 100% and stack ontop of each other.
+*
+* Version 2.7.4
+* NEW ADDITION - DB Product Carousel. It will output a carousel of your products. You create a loop layout much the same as the loop archive module.
+* MOD - Added new field to change the introduction text for guest login step on the multistep checkout layout.
+* MOD/NEW ADDITION - We have changed the way the DB Pro Related Products module works - you can now select the custom loop layout so you can match this to the category page styles. works the same way as the loop archive module.
+* MOD/NEW ADDITION - We have changed the way the DB Pro Upsells module works - you can now select the custom loop layout so you can match this to the category page styles. works the same way as the loop archive module.
+* MOD - Added option to order the categories in the category archive module. Order by Name or Category order.
+* FIX - Fixed code for DB Loop Module where when no results were found the sidebar would appear below.
+* FIX - Fixed it where some sites were showing an error for accent color. When not set in Divi it would show error so removed this. You might need to set the icon color of the gallery module if you didn't change the color and used custom icon/color settings.
+*
+* Version 2.7.3.2
+* NEW ADDITION - added a new module called "DB Pro Prev/Next" which adds product navigation so you can do to the previous ro next product straight from the product page
+* MOD - Added option to add your own text for the multi step validation. It is under the Multi Step specific settings (Multi Step Validation Error Message)
+* FIX - Fixed some code to make some text that is not translatable to be translatable.
+* FIX - Fixed html code of the loop module causing the column next to it going on the next line
+*
+* Version 2.7.3.1
+* FIX - fixed probelm with not being able to go to the next step on the multi checkout with shipping.
+* FIX - updated email template to include billing email and phone number
+* MOD - Added option to disable email template.
+*
+* Version 2.7.3
+* FIX/MOD - changed the way the category layouts check for the template. It will now check the parent category template and apply this to the product page if no template is set for the current category.
+* NEW ADDITION - Added ability to click on the cart icon to show the mini cart instead of hover if you want.
+* FIX/MOD - Added compatibility for the plugin https://wordpress.org/plugins/woocommerce-eu-vat-assistant/
+* MOD - Checkout Multistep - Added required validation on the steps
+* MOD - Checkout Multistep - Added the ability to change the order of the steps
+* FIX - login checkbox was not showing because of Divi CSS - fixed this.
+* NEW ADDITION - We have added a new checkout layout (one page) - basically it adds the basket and checkout on the same page
+* FIX - Fixed issue with expandable gallery appearing under a section near it. It now will expand and overlay everything - including the menu navigation.
+*
+* Version 2.7.2
+* FIX/MOD - Removed "is on category(loop)" option on the modules - it will check automatically if it is on a product page or not. These modules are all the ones that work on the loop and the product layouts
+* NEW ADDITION - Added a new module called "DB Pro Image" - which displays the product image only (no gallery) and you have some options here to specify the image size etc.
+* MOD - DB Pro Images/Gallery - Renamed this to "DB Pro Gallery". Removed the image size and thumbnail columns.
+* MOD - Chnaged the default pagination of the loop module. We have removed the "ugly" default one and replaced it with the WooCommerce one that shows the page numbers.
+* MOD - added option to have 5 or 6 columns in the DB Loop module.
+* MOD - added link to the product from the cart product module (by default Woocommerce was not doing this) - you can remove this by removing the link in the module setting.
+* MOD - ATC modules - added option to hide the add to cart button if the product is out of stock on the archive page.
+* MOD - Added ability to change the icon, color, size and distance from the top of the gallery module (when using the custom single, vertical or horizontal slider.)
+* FIX - Checkout Custom Fields were not working right (the placement of the fields) - it will work now, if you select billing it will only show the field in the billing section.
+*
+* Version 2.7.1
+* FIX - Fixed the variation dropdown showing the stock status as the name for when you have stock management (this is used for variation swatches stock status)
+* MOD - Modified the module "DB Loop Shop/Category Title" - It is now called "DB Loop Category Title/Header". We have added the option to make the category image as a backgorund image so you can make headers on top of each page with the image and the text on top.
+* MOD - Vertical Slider modification on how the thumbnail works - it will be the same height as the image when you resize or change the image.
+*
+*
+* Version 2.7
+* NEW ADDITION - Variation Swatches (Color, Image and Label)
+* FIX - Fixed issue where geolocate at checkout wouldnt work when BodyCommerce was active
+*
+* Version 2.6
+* NEW ADDITION - Cart Page template - you can now create a layout for the cart page and assign this to overwrite the original one. A new tab called "cart page" has been added and two new modules:
+                          - DB Cart Products - this displays the products you have added to the cart
+                          - DB Cart Total - this displays the basket total and proceed to checkout button.
+* NEW ADDITION - Added new module that shows the stock status in the loop or product page - called "DB Pro Stock Status".
+* NEW ADDITION - Added ability to change the button text when using ajax add to cart, so it changes to a sentence you want for example "Added to cart" and then you can specify when it changes back to the original text. You can find these settings in BodyCommerce Mods.
+* NEW ADDITION - Added new module - DB Product Before - this outputs any information that is hooked into the woocommerce_before_single_product action.
+* MOD - Added ability to specify the cateegories you want to ONLY be shown in the archive loop module. Enable custom loop to see this.
+* FIX - Fixed issue of ajax add to cart not updating the cart on mobile - you may need to clear you cache.
+* FIX - Gallery slider dots not being rounded
+* MOD - Changed the css to color code the module so they are easier to use. For example we have made the product modules red and the category/shop modules purple. Once you can use on both we have added a gradient between red and purple.
+*
+* Version 2.5.3
+* MODIFICATION - Change the ajax js file to work with pages that have the variable and single product atc buttons on the same page.
+* FIX - Fixed the css that made the slider dots distorted.
+* FIX - Updated account modules and account pages to be compatiable with WC 3.4.0 with the new Display Name field.
+* MOD - Changes the welcome message module to show the display name instead of the first and last name.
+*
+* Version 2.5.2
+* FIX - removed the words "on" with product title module
+*
+* Version 2.5.1
+* FIX - Added css to add padding to endpoints of downloads and customer details modules
+* FIX - Custom button styles for Add to cart button now will work
+* MODIFICATION - Added change color of thumbnail overlay and icon in design tab on the module.
+* FIX - Fixed the horizontal gallery slider adding loads of space below the image.
+*
+* Version 2.5
+* NEW ADDITION - DB Account Navigation has been added - this outputs the account endpoints as a list or buttons.
+* NEW ADDITION - BodyCommerce Account > Remove Notices. This will remove the notice that appears when someone changes the address or similar in the account area.
+* NEW ADDITION - Added option in category archive module to remove the description if requiired.
+* MODIFICATION/NEW ADDITION - DB Loop Shop/Category Title > We have modified this module to be able to show the category image and description of the category too. By default it hides the image and description - however you can show this and move the text to the top, bottom or right of the image
+* MODIFICATION/NEW ADDITION - Added the ability to change the titles of the checkout steps for example the text "payment info" - you can see this at the bottom of the custom checkout page.
+* MODIFICATION/NEW ADDITION - Added the ability to change the text of the next/previous buttons of the multi step checkout - you can see this at the bottom of the custom checkout page.
+* FIX - Transparent image flip image compatibility
+*
+* Version 2.4.3
+* FIX - Fixed issue with flip image and using a PNG - it would show the other image below - now fixed
+- NEW ADDITON - Added the ability to change the text that appears when you add a product to cart (notice) and the button text with this. You can change this BodyCommerce Mods > Global Mods - at the bottom of this tabbed page.
+- FIX - Fixed issue when you add extra padding on the product loop in the "Column" padding block. This would double the padding on the next product and so forth. You can now add padding to the column padding section.
+*
+* Version 2.4.2
+* FIX - Removed some depreceated functions and replaced with new ones.
+* MODIFICATION - Added hook to add sales flash (badges) on the gallery/image module.
+* FIX - Fixed issue of Variation sale badge not working properly and throwing an error.
+* Other small fixes and updates
+*
+* Version 2.4.1
+* FIX/MOD - Removed the login step from the custom checkout if you have the setting (Display returning customer log-in reminder on the "Checkout" page.) unchecked in WooCommerce settings. Woocommerce > Settings > Accounts
+* NEW ADDITION - Added attribute module - this outputs a list of the attributes that the product has.
+* NEW ADDITION - DB After Shop module - This will output anything after the loop (so the pagination for example) - do_action( 'woocommerce_after_shop_loop' );
+* FIX - Slight code change in ajax add to cart script to cater for some setups.
+* FIX - Errors throwing when no categories are set and using the DB Category Archive Module
+* MOD - Added an alternative Ajax add to cart javascript file that you can use if you want. It checks every half a second if there has been a change in the quantity field as a customer we have was changing the quantity field using another button so the ajax add to cart wasnt working. You can enable this option in BodyCommerce > Settings Tab.
+* FIX - max height of svg didnt have "px" so wasn't working well on IE - sorted now!
+* FIX - CSS color was not changing the "remove" icon or text on the mini cart
+* MODIFICATION - Changed the position of the "remove" icon or text in the minicart to be on the right hand side of the text, next to the image. Before it would sit below the product title and above the price - this was confusing.
+* MODIFICATION - Set "Enable WooCommerce Button Fix?" to be false as default.
+*
+* Version 2.4.0
+* IMPORTANT!!!
+* REMOVAL - Removed the old way of overwriting the category and product pages - you need to make sure you change all your settings before updating!!!! - had to remove this earlier than expected as was causing conflict.
+* IMPORTANT!!!
+* NEW ADDITION - Added option to enable/disable add to cart button on archive pages (setting is in BodyCommerce Mods > Archive Page Mods ).
+* NEW ADDITION - Added option to enable/disable quantity field next to add to cart button on archive pages (setting is in BodyCommerce Mods > Archive Page Mods ).
+* MODIFICATION/ADDED - CSS to make the quanity and button sit next to each other - removed margin on top of atc button and added float left on quantity on archive pages and Divi shop module.
+* MODIFICATION - Modified the JavaScript file to ajax add the quanity on archive page and to show the mini cart - if this is not working you may need to clear your cache - sever, browser or other caches you may be using.
+* MODIFICATION/FIX - Enabled mini cart show on the category pages.
+* FIX - Add to cart button wasnt showing when "FREE" badge was on the page.
+* FIXED - Issue of category pages not taking on default category page when enable custom category page was enabled.
+*
+* Version 2.3.8
+* Minor code changes to remove warning errors
+*
+* Version 2.3.7
+* FIX - Updated code to remove an error in log file
+* FIX - Alignment issues of the custom mini cart on IE
+* MODIFICATION - Mini cart was being hidden on mobile when it was in the secondary menu (default Divi function) - so we have added some code that moves it out of the secondary menu on tablet portrait and mobile so that you can still get the notification of a product being added (autoshow when adding to cart)
+*
+* Version 2.3.6
+* MODIFICATION - Changed the way we process the product and category page override - there are now no limits - we now automatically detect the categories you have and you just select the layout rather than selecting the cat and layout. Please move all your settings over to the new select boxes as this will be removed in version 3.0. We will give you time.
+* MODIFICATION - Added product category description on "DB Category Archive" module. It outputs the category description below the image regardless of the title positon.
+* MODIFICATION - Changed title of the Column Style dropdown in the "DB Category Archive" module to reflect the above. It now says "Title" instead of "Text"
+* NEW ADDITION - Added Product Reviews Shortcode (DB Pro Reviews Module) - [bodycommerce_reviews]
+* MODIFICATION/FIX - You can now load all your layouts created in the library on the product page itself (using the builder)
+*
+* Version 2.3.5
+* NEW ADDITION - Added product schema markup on the product pages - This is a must for SEO - You have to have a plugin that produces this such as Yoast SEO
+* NEW ADDITION - Custom category templates per category
+        - Created new tab to house this and to not cause confusion called "Shop/Category Pages"
+        - Moved all settings that relate to the shop and category pages from the product tab to the new category tab
+* MODIFICATION - Changed most of the titles in the tabs to remove words such as "template" to make it cleaner
+* MODIFICATION/FIX - Added css to make the mini cart fullwidth and fixed below screen sizes of 560px. Also added css to make the mini cart a max height of 80% of the height of the browser. This way if you have loads of different products in the cart you can scroll to see them all.
+* MODIFICATION - Added a save button to the top of all the settings page so you dont have to scroll down to the bottom.
+*
+* Version 2.3.4
+* NEW ADDITION - new module that outputs all the categories with images (set in Woo category settings) on a particular page. For example - on the shop page it will show all parent categories, in a parent category arhive page it will show all sub categories. It is called "DB Category Archive"
+* NEW ADDITION - new module that outputs the WooCommerce notices. It is called "DB Notices"
+* FIX - Product page was not being overwritten per category you select in the settings. This is not fixed
+* FIX - Flip image was out of line - it now will be in the same location as the first image.
+*
+* Version 2.3.3
+* FIX - Fixed issue where sale badge and flip image would go outside of div that keeps the main image.
+* FIX - Price and ATC css wasnt changing when used on a category layout.
+* FIX - 500 error when editing certain modules in the product page.
+*
+* Version 2.3.2
+* FIX - Post Slider not working when categories were selected. You now need to enter them in a text box - comma seperated for this to work.
+* MODIFICATION  - Only enqueue product gallery slider script on product pages so reduce site load time and conflict on other pages such as category page. (as the script wont be loaded there)
+* NEW ADDITION - BodyCommerce Mods > Admin Dash Mods (tab) - there are two new options for you to use.
+        - Change name of WooCommerce name in the admin Dashboard
+        - Change dash icon of WooCommerce in the admin Dashboard
+* FIX - error when editing a page that has the title module on.
+*
+* Version 2.3.1
+* FIX - Changed code to fix issue where some sites were getting an fatal error if cart was enabled.
+*
+* Version 2.3
+* NEW ADDITION - Custom Cart Icon - choose one of our SVG cart icons and customise it further. - Added to Mini Cart/Cart Icon Settings Tab
+               - Customise appearance from background color to font size and color
+               - Remove number counts and/or text after count - change the name of the wording that appears after the number count if you want.
+* MODIFICATION - changed code to check if Divi has added the cart function first, if yes it wont cause an error message.
+*
+* Version 2.2.6
+* FIX - Compatibility with WordPress 4.9 - the color picker was causing the settings page to be blank.
+* Changed the way the settings get removed - from deactivation to uninstall. If you deactivate the plugin the settings will stay.
+*
+* Version 2.2.5
+* FIX - Customer notes were not showing up on emails - they will be now.
+* MODIFICATION - Adding padding bottom setting on header logo - email template
+* NEW ADDITION - NEW Badge for new products - Added to the sale badge tab. You can use the custom styled badges to create a new product badge - specify how long to display the badge for.
+* NEW ADDITION - FREE Badge for products that are priced at 0 - Added to the sale badge tab. You can use the custom styled badges to create a free product badge.
+*
+* Version 2.2.4
+* NEW ADDITION - CUSTOM TABS for your products - on the product page there is an option at the bottom to add a custom tab (goes before reviews tab)
+* MODIFICATION - Renames Modules "DB Pro Images" to "DB Pro Images/Gallery".
+* NEW ADDITION - Added 4 gallery styles for your product pages. This has been added to the module "DB Pro Images/Gallery" - there is a dropdown saying "gallery style" - select the gallery you want to show.
+* FIX - Thumbnail module was giving a warning because of woo class deprecated
+* FIX / ADDITION - Added Coupon at checkout on our custom layouts
+* FIX - Remove shipping options when shipping is disabled in the WooCommerce settings (WooCommerce > general > shipping location(s)) - in checkout styles
+* Added settings to remove the js script for the gallery's if you are not using them. - Divi Engine > BodyCommerce > Settings tab
+* Added settings to not load the bodycommerce css file if you wish. We only put css in here that cannot be loaded dependant on your settings. - Divi Engine > BodyCommerce > Settings tab
+* MODIFICATION - Added option in sale badge to remove the percentage symbol - so you can use our badges but only have text.
+*
+* Version 2.2.3
+* FIX - Ajax Add to cart small bug - not adding single products - this has been tested on this release and all works  100%.
+* NEW ADDITION - NEW CHECKOUT STYLE > CHECKOUT CUSTOMISER. Added the style "accordian" - inherits the style from the accordian module but you can use our appearence settings to change the colors, font sizes etc.
+*
+* Version 2.2.2
+* FIX - Category and account pages not being overwritten on some sites.
+*
+* Version 2.2.1
+* Updated code to fix issue with ajax add to cart not working with some variants
+*
+* Version 2.2
+* FIX - My account orders module - shows return to shop if no orders are found.
+* FIX - depreceated woo filter - default_checkout_country - on checkout page.
+* NEW ADDTION - CHECKOUT CUSTOMISER - NB THIS WILL OVERWRITE YOUR CHECKOUT FILES IN YOUR CHILD THEME IF YOU ARE USING THEM!!
+		* New Tab Called "Custom Checkout Page" in Divi Engine > BodyCommerce, has been added.
+		      * Enable the custom checkout layout
+		      * First layout added is the multi-step layout with two styles to choose from - circles or arrows to represent the stages.
+		      * If you are logged out, it will prompt you to login in.
+		      * Style the layout as you wish with our settings.
+    * New Section added called "DB Checkout Fields" - Divi Engine > DB Checkout Fields.
+          * Create custom fields for your checkout area.
+          * Add these to either the billing, shipping or after shipping areas.
+          * Add the fields to emails sent out and/or show in admin order page.
+* Cleaned up plugin by removing code that is not used anymore.
+* FIX - MORE FIXING DIVI THAN BODYCOMMERCE - Divi still uses an old filter for WooCommerce for their cart icon - so you will get a warning if you have debug on. We have changed our code to overwrite this if you have mini cart enabled.
+* FIX - Login page adding register button if no layout is selected.
+* FIX - Email templates - It was not registering the colors you select for your emails in the WooCommerce settings if you dont want to use the email customiser.
+												- If you dont use the email template customiser, it wont overwrite the default Woo settings.
+* MODIFICATION - Chnaged code to minify JS that is added to the site depending on what you enable in the settings.
+* FIX - The styling of our select boxes were affecting other parts of the Wordpress backend - this is sorted now!
+* NEW ADDITON - Added option in Mini Cart settings to remove the text "item or items" after the cart, so it will just show the number of items and no the word
+*
+* Version 2.1.5
+* Changed some of the code throughout the plugin to make it more secure!
+* NEW ADDITION - Sales badge - you can now select if you want the text to tbe absolute or relative positioning. This is useful if you want the text to be dependant of the badge postion.
+* MODIFICATION - Sales badge - Changed the Text Before/After Percentage textbox to be a textarea. This allows you to have more control. You will need to add code here - add "&lt;br&gt;" to put the next word on a new line. This can be helpful when trying to manipulate the text on some of the badges, for example the circle badges.
+* NEW ADDITION - Global Modification - added "Free Product Price Name", this gives you the ability to change the price from 0.00 to a word/s of your choice - for example "FREE!"
+*
+* Version 2.1.4
+* MODIFICATION - Removed link whole columns in "DB Loop Archive" module. This is becuase it is not the best practise to have a link around a whole div that has links inside of.
+* MODIFICATION - Added "Link Image to Product Page" in "DB Loop Thumbnail" module. This adds a link to the product on your category pages.
+* MODIFICATION - Added "On Category Page(loop)" in "DB Pro/Loop Product Title" module. When you select this, a further option appears that allows you to link to the product page. The link doesnt need to be on the product page, that is why we have a first step (to check if you are displaying it on the category layout)
+* MODIFICATION - Added a select option  in "DB Loop Thumbnail" module to select your preferred thumbnail style. So far we have added: default, image only (no overlay) & flip image (hover over image and it transistions to the first image on the gallery)
+*
+* Version 2.1.3
+* FIX - issue with conflict with Divi Nitro.
+*
+* Version 2.1.2
+* Added settings in account area to deal with other endpoints that other plugins create. For example you have a plugin that creates a section in the account area like "coupons" - you can use the following to make it look the same as your others
+			* Make not fullwidth (this acts the same as a section in the Divi Builder)
+			* Set padding on top and bottom
+* MODIFICATION - DB Log Login Form & DB Log Register Form - Added an option to redirect the user if logged in to the account section. This is useful if you are using the login module somewhere else on the site. Before it only redirected if you used it in the layout assigned to the login section.
+* NEW ADDITION - Added 6 more sale badge styles - 3 of which are christmas style badges to get ready for christmas sales
+*
+* Version 2.1.1
+* Fix - conflict with customizer not working - it is sorted now!
+* Fix - Removed dorment code warnings
+*
+* Version 2.1
+* NEW ADDITION - Enable Divi Builder on Product page (BodyCommerce Mods > Single Page Mods )
+* NEW ADDITION - Select Category/Shop templates
+* Loop Modules include:
+-- DB Loop View Product Btn - Displays a button to link to the respective product from the archive page
+-- DB Loop Shop/category Title - Displays the current category title
+-- DB Loop Archive - Displays the prdocu loop for the category page. You will need to create a product loop layout and assign it here.
+-- DB Loop Thumbnail - Displays the product thumbnail and sale badge in the Loop
+-- MODIFICATION to:
+            -- DB Pro/Loop Add To Cart, DB Pro/Loop Price, DB Pro/Loop Product Rating - New button asking if it is in a loop and then will display accordingly
+* NEW ADDITION - Select a different product page template per category
+* NEW ADDITION - Specify the product page template on the product page itself - this will overwrite the main template
+* Fix - Divi Button Fix
+* Fix - Image size on the Mini Cart not changing
+* Fix - sale badge going beyond the image
+* MODIFICATION - Login/Register modules didnt have a way to specify the sub heading and heading text - this has been added
+*
+* Version 2.0
+* NEW ADDITION - Product page template. You can now create product pages using the Divi Builder - see documentation
+* Product page modules include:
+-- DB Pro Add To Cart = Adds single product add to cart action.
+-- DB Pro Additional Information = Displays the additional information text (in default it is in the tabs)
+-- DB Pro Breadcrumbs = Displays the breadcrumb
+-- DB Pro Content = Displays the content
+-- DB Pro Images = Displays the product image/gallery
+-- DB Pro Price = Displays the Product Price
+-- DB Pro Product Rating = Displays the rating of the broduct
+-- DB Pro Product Summary = This outputs the title, short description, price, add to cart & tabs
+-- DB Pro Product Title = Displays the product title
+-- DB Pro Related Products = Displays the related products (same categories)
+-- DB pro Reviews = Displays the product reviews
+-- DB Pro Sharing = Displays the product sharing
+-- DB Pro Short Description = Displays the short description
+-- DB Pro Tabs = Displays the product tabs
+-- DB Pro Upsell = Displays the upsell products
+* NEW ADDITION - Login page template. You can now create product pages using the Divi Builder - see documentation
+* Login page modules include:
+-- DB Log Login Form = Displays the login form - you can customise it
+-- DB Log Register Form = Displays the register form - you can customise it
+* NEW ADDTION - DB Product Slider - this uses the Divi Slider to create product sliders - this can be used on the homepage for example
+*
+* Version 1.2
+* Moved "Other WooCommerce Settings" to Divi Engine > Bodycommerce Mods
+* Added 5 tabs in Bodycommerce Mods - there are as follows with the settings.
+* NEW ADDITION - Global Mods: Default Product Image, Breadcrumb separator, remove breadcrumbs, remove sale badge, chnage sale badge to be percentage, text before and after percentage on badge.
+* NEW ADDITION - Archive Page Mods: Move pagination to top, text before archive page name, change labels of the sorting fields, add the product description under the product Image.
+* NEW ADDITION - Single Page Mods: Short descriptions title, add to cart notification text, add to cart notificatio button text, remove add to cart notification.
+* NEW ADDITION - User/Customer Mods: Remove password strangth meter, buy one item only, show price for logged in users only.
+* NEW ADDITION - Checkout Mods: set default country, create a custom checkbox at checkout.
+* FIX - Fixed issue with space at top of account area (padding)
+* NEW ADDITION - Divi Engine > Account Section: Add padding to endpoints not built with the Divi Builder
+* NEW ADDITION - Divi Engine > Account Section: Choose if you want the navigation to be on the left or above the endpoints - set the width too.
+* If unsure on the settings above - read our documentation: http://docs.diviengine.com/divi-bodycommerce
+*
+* Version 1.1.2
+* Changed the minicart slightly to work with central menu.
+* Added a width setting now for the minicart - set the width of the minicart to what you desire.
+*
+* Version 1.1.1
+* Fixed issue with some sites, when enabling mini cart it made the icon jump out of position. It will not happen now
+*
+* Version 1.1
+* NEW ADDITION - Email Templates
+* You can now customise your email templates and preview how they will look in our settings page. A new tab has been added for this called "Email Template". Change colours, add product image and sku to the order table and more.
+* Modified our Orders Module to show the default notice when no orders have been placed.
+* NEW ADDITION - Add to Cart Notification
+* Remove the notification that appears when you add a product to the cart on a single product page.
+* Change the text and button that appears in this notification if you still want it.
+*
+* Version 1.0.2
+* Fixed Issue with php warning when no account page is selected
+*
+* Version 1.0.1
+* Added Woocommece and Divi button fix - makes sure the button text is the same as the settings in the customiser.
+*
+*/

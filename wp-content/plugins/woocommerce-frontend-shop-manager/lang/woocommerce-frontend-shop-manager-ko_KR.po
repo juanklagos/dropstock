@@ -1,0 +1,1277 @@
+# Copyright (C) 2020 Live Product Editor for WooCommerce
+# This file is distributed under the same license as the Live Product Editor for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Product Editor for WooCommerce 4.4.8\n"
+"Report-Msgid-Bugs-To: https://help.xforwoocommerce.com\n"
+"POT-Creation-Date: 2020-04-11 20:39:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-04-11 20:39:00+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: includes/svx-settings/svx-settings.php:141
+msgid "Plugin not registered!"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:143
+msgid ""
+"license is not registered. Please register! Click Register now button to "
+"start."
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:144
+msgid "Need help? Visit this link"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:144
+msgid "How to register?"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:146
+msgid "Register now"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:152
+msgid "Connecting to server"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:154
+msgid "OK"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:155
+msgid "Remove license"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:156
+#: includes/svx-settings/svx-settings.php:188
+msgid "License details"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:157
+msgid "Extend support"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:163
+msgid "Confirm key"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:164
+msgid "Get key"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:220
+#: includes/svx-settings/svx-settings.php:229
+msgid "Save"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:258
+msgid "Export"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:258
+msgid "Import"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:258
+msgid "Backup"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:258
+msgid "Restore"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:258
+msgid "Reset"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:266
+msgid "Add +"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:306
+msgid "Configure"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:314
+#: includes/svx-settings/svx-settings.php:335
+msgid "Add Item +"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:343
+msgid "Include/Exclude Manager"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:344
+msgid "Exclude"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:345
+msgid "Include"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:357
+msgid "Terms Manager"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:364
+msgid "Custom Order"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:373
+msgid "Type"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:375 includes/wfsm-frontend.php:817
+msgid "None"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:376
+msgid "Plain Text"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:377
+msgid "Color"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:378
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:379 includes/wfsm-settings.php:309
+msgid "Select Box"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:381
+#: includes/svx-settings/svx-settings.php:389
+msgid "System Select"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:382
+msgid "Live Select"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:386
+msgid "Input Field"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:387 includes/wfsm-settings.php:308
+msgid "Checkbox"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:388 includes/wfsm-settings.php:310
+msgid "Textarea"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:406
+msgid "Style"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:408
+msgid "Border"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:409
+msgid "Background"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:410
+msgid "Round"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:414
+msgid "Normal"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:418
+msgid "Active"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:422 includes/wfsm-frontend.php:1376
+msgid "Disabled"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:426
+msgid "Out of stock"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:433
+msgid "Show labels"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:440
+msgid "Swatch size"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:458
+#: includes/svx-settings/svx-settings.php:523 includes/wfsm-settings.php:315
+#: includes/wfsm-settings.php:338 includes/wfsm-settings.php:361
+#: includes/wfsm-settings.php:394
+msgid "Name"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:464
+msgid "Meta value"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:471
+#: includes/svx-settings/svx-settings.php:529
+msgid "Value"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:486
+msgid "Min"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:488
+msgid "Max"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:495
+msgid "Count"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:502
+#: includes/svx-settings/svx-settings.php:550
+msgid "Tooltip"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:537
+msgid "Add Image +"
+msgstr ""
+
+#: includes/svx-settings/svx-settings.php:544
+msgid "Price"
+msgstr ""
+
+#: includes/wfsm-frontend.php:175
+msgid "Delete File?"
+msgstr ""
+
+#: includes/wfsm-frontend.php:176 includes/wfsm-frontend.php:1127
+#: includes/wfsm-frontend.php:1806 includes/wfsm-frontend.php:2632
+msgid "File Name"
+msgstr ""
+
+#: includes/wfsm-frontend.php:177 includes/wfsm-frontend.php:1129
+#: includes/wfsm-frontend.php:1808 includes/wfsm-frontend.php:2634
+msgid "Choose file"
+msgstr ""
+
+#: includes/wfsm-frontend.php:178 includes/wfsm-frontend.php:1129
+#: includes/wfsm-frontend.php:1808 includes/wfsm-frontend.php:2179
+#: includes/wfsm-frontend.php:2634
+msgid "Choose File"
+msgstr ""
+
+#: includes/wfsm-frontend.php:181
+msgid "Duplicate product?"
+msgstr ""
+
+#: includes/wfsm-frontend.php:182
+msgid "Product duplicated!"
+msgstr ""
+
+#: includes/wfsm-frontend.php:185
+msgid "Trash product?"
+msgstr ""
+
+#: includes/wfsm-frontend.php:186
+msgid "Trash variation?"
+msgstr ""
+
+#: includes/wfsm-frontend.php:189
+msgid "Use only numbers and the decimal separator!"
+msgstr ""
+
+#: includes/wfsm-frontend.php:192
+msgid "Discard product?"
+msgstr ""
+
+#: includes/wfsm-frontend.php:193
+msgid "Product discarded!"
+msgstr ""
+
+#: includes/wfsm-frontend.php:280 includes/wfsm-frontend.php:342
+msgid "Add New Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:284 includes/wfsm-frontend.php:346
+#: includes/wfsm-frontend.php:422
+msgid "Edit product in the backend"
+msgstr ""
+
+#: includes/wfsm-frontend.php:288 includes/wfsm-frontend.php:350
+#: includes/wfsm-frontend.php:436 includes/wfsm-frontend.php:3158
+msgid "Save changes"
+msgstr ""
+
+#: includes/wfsm-frontend.php:289 includes/wfsm-frontend.php:351
+#: includes/wfsm-frontend.php:437 includes/wfsm-frontend.php:3159
+msgid "Discard changes"
+msgstr ""
+
+#: includes/wfsm-frontend.php:294
+msgid "Simple"
+msgstr ""
+
+#: includes/wfsm-frontend.php:300
+msgid "Grouped"
+msgstr ""
+
+#: includes/wfsm-frontend.php:306
+msgid "External"
+msgstr ""
+
+#: includes/wfsm-frontend.php:312
+msgid "Variable"
+msgstr ""
+
+#: includes/wfsm-frontend.php:418
+msgid "Quick edit product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:427
+msgid "Duplicate product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:432
+msgid "Delete product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:443 includes/wfsm-frontend.php:632
+#: includes/wfsm-settings.php:253
+msgid "Published"
+msgstr ""
+
+#: includes/wfsm-frontend.php:446 includes/wfsm-frontend.php:633
+#: includes/wfsm-settings.php:255
+msgid "Draft"
+msgstr ""
+
+#: includes/wfsm-frontend.php:449 includes/wfsm-frontend.php:634
+#: includes/wfsm-settings.php:254
+msgid "Pending"
+msgstr ""
+
+#: includes/wfsm-frontend.php:461
+msgid "Currently Editing"
+msgstr ""
+
+#: includes/wfsm-frontend.php:462
+msgid "Tap to Save"
+msgstr ""
+
+#: includes/wfsm-frontend.php:488
+msgid "New Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:552
+msgid "Simple Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:556
+msgid "Variable Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:560
+msgid "External Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:564
+msgid "Grouped Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:568 includes/wfsm-frontend.php:1294
+#: includes/wfsm-frontend.php:3263
+msgid "Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:584
+msgid "welcome back!"
+msgstr ""
+
+#: includes/wfsm-frontend.php:619 includes/wfsm-frontend.php:678
+msgid "Product Content"
+msgstr ""
+
+#: includes/wfsm-frontend.php:628 includes/wfsm-settings.php:27
+msgid "Product Status"
+msgstr ""
+
+#: includes/wfsm-frontend.php:635
+msgid "Trash"
+msgstr ""
+
+#: includes/wfsm-frontend.php:653
+msgid "Product is Featured"
+msgstr ""
+
+#: includes/wfsm-frontend.php:654
+msgid "Product is not Featured"
+msgstr ""
+
+#: includes/wfsm-frontend.php:662 includes/wfsm-settings.php:34
+msgid "Product Name"
+msgstr ""
+
+#: includes/wfsm-frontend.php:670 includes/wfsm-settings.php:35
+msgid "Product Slug"
+msgstr ""
+
+#: includes/wfsm-frontend.php:677
+msgid "Edit Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:679
+msgid "Product Description"
+msgstr ""
+
+#: includes/wfsm-frontend.php:684 includes/wfsm-frontend.php:1538
+#: includes/wfsm-frontend.php:2371 includes/wfsm-settings.php:30
+msgid "Featured Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:705 includes/wfsm-frontend.php:1559
+#: includes/wfsm-frontend.php:2392
+msgid "Change Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:706 includes/wfsm-frontend.php:1560
+#: includes/wfsm-frontend.php:2393
+msgid "Discard Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:715 includes/wfsm-settings.php:31
+msgid "Product Gallery"
+msgstr ""
+
+#: includes/wfsm-frontend.php:733 includes/wfsm-frontend.php:1906
+msgid "Add Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:748
+msgid "Product Data"
+msgstr ""
+
+#: includes/wfsm-frontend.php:755
+msgid "Product External URL"
+msgstr ""
+
+#: includes/wfsm-frontend.php:764
+msgid "Product Button Text"
+msgstr ""
+
+#: includes/wfsm-frontend.php:774 includes/wfsm-frontend.php:1717
+#: includes/wfsm-frontend.php:2535
+msgid "Product is Virtual"
+msgstr ""
+
+#: includes/wfsm-frontend.php:775 includes/wfsm-frontend.php:1718
+#: includes/wfsm-frontend.php:2536
+msgid "Product is not Virtual"
+msgstr ""
+
+#: includes/wfsm-frontend.php:784 includes/wfsm-frontend.php:1788
+#: includes/wfsm-frontend.php:2614
+msgid "Product is Downloadable"
+msgstr ""
+
+#: includes/wfsm-frontend.php:785 includes/wfsm-frontend.php:1789
+#: includes/wfsm-frontend.php:2615
+msgid "Product is not Downloadable"
+msgstr ""
+
+#: includes/wfsm-frontend.php:794 includes/wfsm-frontend.php:1569
+#: includes/wfsm-frontend.php:2402
+msgid "SKU"
+msgstr ""
+
+#: includes/wfsm-frontend.php:802 includes/wfsm-frontend.php:1578
+#: includes/wfsm-frontend.php:2411
+msgid "Regular Price"
+msgstr ""
+
+#: includes/wfsm-frontend.php:806 includes/wfsm-frontend.php:1582
+#: includes/wfsm-frontend.php:2415
+msgid "Sale Price"
+msgstr ""
+
+#: includes/wfsm-frontend.php:815
+msgid "Taxable"
+msgstr ""
+
+#: includes/wfsm-frontend.php:816
+msgid "Shipping"
+msgstr ""
+
+#: includes/wfsm-frontend.php:826
+msgid "Tax Status"
+msgstr ""
+
+#: includes/wfsm-frontend.php:842 includes/wfsm-frontend.php:1683
+#: includes/wfsm-frontend.php:2501
+msgid "Standard"
+msgstr ""
+
+#: includes/wfsm-frontend.php:856 includes/wfsm-frontend.php:1697
+#: includes/wfsm-frontend.php:2515
+msgid "Tax Class"
+msgstr ""
+
+#: includes/wfsm-frontend.php:876
+msgid "Product is Sold Individually"
+msgstr ""
+
+#: includes/wfsm-frontend.php:877
+msgid "Product is not Sold Individually"
+msgstr ""
+
+#: includes/wfsm-frontend.php:889 includes/wfsm-frontend.php:1593
+#: includes/wfsm-frontend.php:2426
+msgid "Product is In Stock"
+msgstr ""
+
+#: includes/wfsm-frontend.php:890 includes/wfsm-frontend.php:1594
+#: includes/wfsm-frontend.php:2427
+msgid "Product is currently Out of Stock"
+msgstr ""
+
+#: includes/wfsm-frontend.php:899 includes/wfsm-frontend.php:1603
+#: includes/wfsm-frontend.php:2437
+msgid "Stock Quantity"
+msgstr ""
+
+#: includes/wfsm-frontend.php:909 includes/wfsm-frontend.php:1613
+#: includes/wfsm-frontend.php:2447
+msgid "Allow Backorders"
+msgstr ""
+
+#: includes/wfsm-frontend.php:913 includes/wfsm-frontend.php:1617
+#: includes/wfsm-frontend.php:2451
+msgid "Do not allow"
+msgstr ""
+
+#: includes/wfsm-frontend.php:914 includes/wfsm-frontend.php:1618
+#: includes/wfsm-frontend.php:2452
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: includes/wfsm-frontend.php:915 includes/wfsm-frontend.php:1619
+#: includes/wfsm-frontend.php:2453
+msgid "Allow"
+msgstr ""
+
+#: includes/wfsm-frontend.php:929 includes/wfsm-frontend.php:1633
+#: includes/wfsm-frontend.php:2467
+msgid "Manage Stock"
+msgstr ""
+
+#: includes/wfsm-frontend.php:941 includes/wfsm-frontend.php:1646
+#: includes/wfsm-frontend.php:2480
+msgid "Start Sale"
+msgstr ""
+
+#: includes/wfsm-frontend.php:942 includes/wfsm-frontend.php:1647
+#: includes/wfsm-frontend.php:2481
+msgid "From&hellip; YYYY-MM-DD"
+msgstr ""
+
+#: includes/wfsm-frontend.php:945 includes/wfsm-frontend.php:1650
+#: includes/wfsm-frontend.php:2484
+msgid "End Sale"
+msgstr ""
+
+#: includes/wfsm-frontend.php:946 includes/wfsm-frontend.php:1651
+#: includes/wfsm-frontend.php:2485
+msgid "To&hellip; YYYY-MM-DD"
+msgstr ""
+
+#: includes/wfsm-frontend.php:969 includes/wfsm-frontend.php:1674
+#: includes/wfsm-frontend.php:2492
+msgid "Schedule Sale"
+msgstr ""
+
+#: includes/wfsm-frontend.php:976
+msgid "Choose a grouped product&hellip;"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1017
+msgid "Grouping"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1038
+msgid "Purchase Note"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1048 includes/wfsm-settings.php:46
+msgid "Product Shipping"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1055 includes/wfsm-frontend.php:1732
+#: includes/wfsm-frontend.php:2550
+msgid "Weight"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1063 includes/wfsm-frontend.php:1740
+#: includes/wfsm-frontend.php:2558
+msgid "Length"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1071 includes/wfsm-frontend.php:1748
+#: includes/wfsm-frontend.php:2566
+msgid "Width"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1079 includes/wfsm-frontend.php:1756
+#: includes/wfsm-frontend.php:2574
+msgid "Height"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1099
+msgid "No shipping class"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1107 includes/wfsm-frontend.php:1776
+#: includes/wfsm-frontend.php:2602
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1117
+msgid "Product Downloads"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1128 includes/wfsm-frontend.php:1807
+#: includes/wfsm-frontend.php:2633
+msgid "http://"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1129 includes/wfsm-frontend.php:1808
+#: includes/wfsm-frontend.php:2634
+msgid "Insert file URL"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1138 includes/wfsm-frontend.php:1818
+#: includes/wfsm-frontend.php:2643
+msgid "Add File"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1145 includes/wfsm-frontend.php:1825
+#: includes/wfsm-frontend.php:2650
+msgid "Download Limit"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1153 includes/wfsm-frontend.php:1833
+#: includes/wfsm-frontend.php:2658
+msgid "Download Expiry"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1159
+msgid "Standard Product"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1160
+msgid "Application/Software"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1161
+msgid "Music"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1170
+msgid "Download Type"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1190
+msgid "Product Taxnonomies and Terms"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1196
+msgid "Product Categories"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1215
+msgid "Product Tags"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1267
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1311 includes/wfsm-frontend.php:3284
+msgid "Attribute is visible on product page"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1312 includes/wfsm-frontend.php:3285
+msgid "Attribute is not visible on product page"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1320 includes/wfsm-frontend.php:3293
+msgid "Attribute is used in variations"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1321 includes/wfsm-frontend.php:3294
+msgid "Attribute is not used in variations"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1375
+msgid "Enabled"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1483 includes/wfsm-frontend.php:2317
+msgid "Product Variation #ID"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1483 includes/wfsm-frontend.php:2317
+msgid "Delete variation"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1515 includes/wfsm-frontend.php:2348
+msgid "Any"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1682 includes/wfsm-frontend.php:1768
+#: includes/wfsm-frontend.php:2500 includes/wfsm-frontend.php:2594
+msgid "Same as parent"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1851
+msgid "Add New Variation"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1857
+msgid "Update Attributes and Variations"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1904
+msgid "Insert Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:1969
+msgid "Set Featured Image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:2032
+msgid "Select Product Images"
+msgstr ""
+
+#: includes/wfsm-frontend.php:2034
+msgid "Add Images"
+msgstr ""
+
+#: includes/wfsm-frontend.php:2957
+msgid "Variation #%s of %s"
+msgstr ""
+
+#: includes/wfsm-frontend.php:3157
+msgid "Add image"
+msgstr ""
+
+#: includes/wfsm-frontend.php:3325
+msgid "(Copy)"
+msgstr ""
+
+#: includes/wfsm-frontend.php:4140
+msgid "New product"
+msgstr ""
+
+#: includes/wfsm-settings.php:22
+msgid "Create Simple Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:23
+msgid "Create Grouped Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:24
+msgid "Create External Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:25
+msgid "Create Variable Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:26
+msgid "Create Custom Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:28
+msgid "Feature Product"
+msgstr ""
+
+#: includes/wfsm-settings.php:29
+msgid "Product Content and Description"
+msgstr ""
+
+#: includes/wfsm-settings.php:32
+msgid "Downloadable Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:33
+msgid "Virtual Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:36
+msgid "Product External URL (External/Affilate)"
+msgstr ""
+
+#: includes/wfsm-settings.php:37
+msgid "Product External Button Text"
+msgstr ""
+
+#: includes/wfsm-settings.php:38
+msgid "Product SKU"
+msgstr ""
+
+#: includes/wfsm-settings.php:39
+msgid "Product Tax"
+msgstr ""
+
+#: includes/wfsm-settings.php:40
+msgid "Product Prices"
+msgstr ""
+
+#: includes/wfsm-settings.php:41
+msgid "Sold Individually"
+msgstr ""
+
+#: includes/wfsm-settings.php:42
+msgid "Product Stock"
+msgstr ""
+
+#: includes/wfsm-settings.php:43
+msgid "Product Schedule Sale"
+msgstr ""
+
+#: includes/wfsm-settings.php:44
+msgid "Product Grouping"
+msgstr ""
+
+#: includes/wfsm-settings.php:45
+msgid "Product Purchase Note"
+msgstr ""
+
+#: includes/wfsm-settings.php:47
+msgid "Manage Downloads"
+msgstr ""
+
+#: includes/wfsm-settings.php:48
+msgid "Manage Download Extended Settings"
+msgstr ""
+
+#: includes/wfsm-settings.php:49
+msgid "Edit Product Categories"
+msgstr ""
+
+#: includes/wfsm-settings.php:50
+msgid "Edit Product Tags"
+msgstr ""
+
+#: includes/wfsm-settings.php:51
+msgid "Edit Product Attributes"
+msgstr ""
+
+#: includes/wfsm-settings.php:52
+msgid "Add New Taxonomy Terms"
+msgstr ""
+
+#: includes/wfsm-settings.php:53
+msgid "Add Variation (Variable)"
+msgstr ""
+
+#: includes/wfsm-settings.php:54
+msgid "Edit Variations (Variable)"
+msgstr ""
+
+#: includes/wfsm-settings.php:55
+msgid "Delete Variation (Variable)"
+msgstr ""
+
+#: includes/wfsm-settings.php:56
+msgid "Edit Product Attributes (Variable)"
+msgstr ""
+
+#: includes/wfsm-settings.php:57
+msgid "Duplicate Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:58
+msgid "Delete Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:59
+msgid "Backend Buttons"
+msgstr ""
+
+#: includes/wfsm-settings.php:67
+msgid "Opton Name"
+msgstr ""
+
+#: includes/wfsm-settings.php:90
+msgid "Default"
+msgstr ""
+
+#: includes/wfsm-settings.php:91
+msgid "Flat"
+msgstr ""
+
+#: includes/wfsm-settings.php:92
+msgid "Dark"
+msgstr ""
+
+#: includes/wfsm-settings.php:97
+msgid "Live product editor"
+msgstr ""
+
+#. #-#-#-#-#  woocommerce-frontend-shop-manager-en_UK.pot (Live Product Editor for WooCommerce 4.4.8)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/wfsm-settings.php:97 includes/wfsm-settings.php:98
+msgid "Live Product Editor for WooCommerce"
+msgstr ""
+
+#: includes/wfsm-settings.php:98
+msgid "Settings page for Live Product Editor for WooCommerce!"
+msgstr ""
+
+#: includes/wfsm-settings.php:101
+msgid "Visit XforWooCommerce.com"
+msgstr ""
+
+#: includes/wfsm-settings.php:105
+msgid "Get help"
+msgstr ""
+
+#: includes/wfsm-settings.php:110
+msgid "Dashboard"
+msgstr ""
+
+#: includes/wfsm-settings.php:111
+msgid "Dashboard Overview"
+msgstr ""
+
+#: includes/wfsm-settings.php:114
+msgid "General"
+msgstr ""
+
+#: includes/wfsm-settings.php:115
+msgid "General Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:118
+msgid "Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:119
+msgid "Products Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:122
+msgid "Vendors"
+msgstr ""
+
+#: includes/wfsm-settings.php:123
+msgid "Vendors Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:126
+msgid "Custom Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:127
+msgid "Custom Options Settings"
+msgstr ""
+
+#: includes/wfsm-settings.php:130
+msgid "Installation"
+msgstr ""
+
+#: includes/wfsm-settings.php:131
+msgid "Installation Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:142
+msgid "Visit XforWooCommerce.com store, demos and knowledge base."
+msgstr ""
+
+#: includes/wfsm-settings.php:147
+msgid "Help Center"
+msgstr ""
+
+#: includes/wfsm-settings.php:148
+msgid "Need support? Visit the Help Center."
+msgstr ""
+
+#: includes/wfsm-settings.php:153
+msgid "Automatic Updates"
+msgstr ""
+
+#: includes/wfsm-settings.php:154
+msgid ""
+"Get automatic updates, by downloading and installing the Envato Market "
+"plugin."
+msgstr ""
+
+#: includes/wfsm-settings.php:163
+msgid "Plugin Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:166
+msgid "Quick export/import, backup and restore, or just reset your optons here"
+msgstr ""
+
+#: includes/wfsm-settings.php:171
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/wfsm-settings.php:173
+msgid "Use custom logo and enter logo URL. Use square images (200x200px)!"
+msgstr ""
+
+#: includes/wfsm-settings.php:180
+msgid "Show Logo/User"
+msgstr ""
+
+#: includes/wfsm-settings.php:182
+msgid ""
+"Select what to show in the Live Product Editor header, logo or logged in "
+"user."
+msgstr ""
+
+#: includes/wfsm-settings.php:185
+msgid "Show Logo"
+msgstr ""
+
+#: includes/wfsm-settings.php:186
+msgid "Show Logged User"
+msgstr ""
+
+#: includes/wfsm-settings.php:193
+msgid "Live Editor Style"
+msgstr ""
+
+#: includes/wfsm-settings.php:195
+msgid "Select Live Product Editor style/skin."
+msgstr ""
+
+#: includes/wfsm-settings.php:204
+msgid "Shop Init Action"
+msgstr ""
+
+#: includes/wfsm-settings.php:206
+msgid ""
+"Use custom initialization action for Shop/Product Archives. Use actions "
+"initiated in your content-product.php template. Please enter action name in "
+"following format action_name:priority"
+msgstr ""
+
+#: includes/wfsm-settings.php:212
+msgid "Single Product Init Action"
+msgstr ""
+
+#: includes/wfsm-settings.php:214
+msgid ""
+"Use custom initialization action on Single Product Pages. Use actions "
+"initiated in your content-single-product.php template. Please enter action "
+"name in following format action_name:priority"
+msgstr ""
+
+#: includes/wfsm-settings.php:220
+msgid "Plugin Scripts"
+msgstr ""
+
+#: includes/wfsm-settings.php:222
+msgid ""
+"Check this option to load plugin scripts in all pages. This option fixes "
+"issues in Quick Views, AJAX loads and similar."
+msgstr ""
+
+#: includes/wfsm-settings.php:230
+msgid "Show Hidden Products"
+msgstr ""
+
+#: includes/wfsm-settings.php:232
+msgid ""
+"Check this option to enable pending and draft products in Shop/Product "
+"Archives."
+msgstr ""
+
+#: includes/wfsm-settings.php:239
+msgid "New Product Button"
+msgstr ""
+
+#: includes/wfsm-settings.php:241
+msgid ""
+"Check this option to hide the New Product Button (Create Product). Use "
+"[wfsm_new_product] shortcode if you need a custom New Product Button."
+msgstr ""
+
+#: includes/wfsm-settings.php:248
+msgid "New Product Status"
+msgstr ""
+
+#: includes/wfsm-settings.php:250
+msgid "Select the default status for newly created products."
+msgstr ""
+
+#: includes/wfsm-settings.php:262
+msgid "New Product is Virtual"
+msgstr ""
+
+#: includes/wfsm-settings.php:264
+msgid ""
+"Check this option to set virtual by default (not shipped) for new products."
+msgstr ""
+
+#: includes/wfsm-settings.php:271
+msgid "New Product is Downloadable"
+msgstr ""
+
+#: includes/wfsm-settings.php:273
+msgid "Check this option to set downloadable by default for new products."
+msgstr ""
+
+#: includes/wfsm-settings.php:281
+msgid "Custom Product Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:284
+msgid ""
+"Click Add Custom Settings Group button to add special product options in the "
+"Live Product Editor."
+msgstr ""
+
+#: includes/wfsm-settings.php:287 includes/wfsm-settings.php:292
+#: includes/wfsm-settings.php:458 includes/wfsm-settings.php:462
+msgid "Group Name"
+msgstr ""
+
+#: includes/wfsm-settings.php:295 includes/wfsm-settings.php:465
+msgid "Enter group name"
+msgstr ""
+
+#: includes/wfsm-settings.php:299 includes/wfsm-settings.php:375
+#: includes/wfsm-settings.php:408
+msgid "Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:302
+msgid "Add options to options group"
+msgstr ""
+
+#: includes/wfsm-settings.php:304
+msgid "Option Name"
+msgstr ""
+
+#: includes/wfsm-settings.php:307
+msgid "Input"
+msgstr ""
+
+#: includes/wfsm-settings.php:318 includes/wfsm-settings.php:341
+#: includes/wfsm-settings.php:364 includes/wfsm-settings.php:397
+msgid "Enter option name"
+msgstr ""
+
+#: includes/wfsm-settings.php:322 includes/wfsm-settings.php:345
+#: includes/wfsm-settings.php:368 includes/wfsm-settings.php:401
+msgid "Key"
+msgstr ""
+
+#: includes/wfsm-settings.php:325 includes/wfsm-settings.php:348
+#: includes/wfsm-settings.php:371 includes/wfsm-settings.php:404
+msgid "Enter database key"
+msgstr ""
+
+#: includes/wfsm-settings.php:329 includes/wfsm-settings.php:352
+#: includes/wfsm-settings.php:385 includes/wfsm-settings.php:419
+msgid "Default Value"
+msgstr ""
+
+#: includes/wfsm-settings.php:332 includes/wfsm-settings.php:355
+#: includes/wfsm-settings.php:388 includes/wfsm-settings.php:422
+msgid "Enter default value"
+msgstr ""
+
+#: includes/wfsm-settings.php:378 includes/wfsm-settings.php:411
+msgid "Enter options (JSON string)"
+msgstr ""
+
+#: includes/wfsm-settings.php:432
+msgid "Products per Vendor"
+msgstr ""
+
+#: includes/wfsm-settings.php:434
+msgid "Maximum number of products vendor can create."
+msgstr ""
+
+#: includes/wfsm-settings.php:441
+msgid "Default Vendor Restrictions"
+msgstr ""
+
+#: includes/wfsm-settings.php:443
+msgid "Selected product options vendors will not be able to edit."
+msgstr ""
+
+#: includes/wfsm-settings.php:452
+msgid "Vendor Groups Manager"
+msgstr ""
+
+#: includes/wfsm-settings.php:455
+msgid ""
+"Click Add Vendor Premission Group button to customize user editing "
+"permissions for specified users."
+msgstr ""
+
+#: includes/wfsm-settings.php:469
+msgid "Select Users"
+msgstr ""
+
+#: includes/wfsm-settings.php:472
+msgid "Select users"
+msgstr ""
+
+#: includes/wfsm-settings.php:478
+msgid "Select Options"
+msgstr ""
+
+#: includes/wfsm-settings.php:481
+msgid ""
+"Selected product options vendors from this group will not be able to edit"
+msgstr ""
+
+#: woocommerce-frontend-shop-manager.php:75
+msgid ""
+"This plugin requires WooCommerce. Download it from WooCommerce official "
+"website"
+msgstr ""
+
+#: woocommerce-frontend-shop-manager.php:191
+msgid "Option"
+msgstr ""
+
+#: woocommerce-frontend-shop-manager.php:238
+msgid "Live Editor"
+msgstr ""
+
+#. #-#-#-#-#  woocommerce-frontend-shop-manager-en_UK.pot (Live Product Editor for WooCommerce 4.4.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  woocommerce-frontend-shop-manager-en_UK.pot (Live Product Editor for WooCommerce 4.4.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://xforwoocommerce.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "XforWooCommerce Themes and Plugins! Visit https://xforwoocommerce.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "7VX LLC, USA CA"
+msgstr ""
